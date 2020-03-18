@@ -1,0 +1,133 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "@type" : "skos:Concept",
+    "exactMatch" : "http://vocab.getty.edu/aat/300028028",
+    "narrower" : [ "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia", "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis", "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia", "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis-summary", "http://semantics.gr/authorities/openarchives-item-types/metadidaktorikh-diatribh" ],
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Διπλωματική εργασία"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000004-2159_15536%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/psepheda/000004-handle_2159_15536",
+    "dataProvider" : "Πανεπιστήμιο Μακεδονίας",
+    "isShownAt" : "http://dspace.lib.uom.gr/handle/2159/15536",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/psepheda/000004-handle_2159_15536",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : [ "Διατμηματικό Πρόγραμμα Μεταπτυχιακών Σπουδών στη Διοίκηση Επιχειρήσεων", "Χατζηδημητρίου, Γιάννης" ],
+    "creator" : "Τσιταμπάνης, Αθανάσιος",
+    "date" : [ "2013", "2013-03-22T10:19:41Z" ],
+    "description" : [ "Διπλωματική εργασία--Πανεπιστήμιο Μακεδονίας, Θεσσαλονίκη, 2013.", "Οι διεθνείς τάσεις για παγκοσμιοποίηση της παραγωγικής διαδικασίας και του εμπορίου έχουν αναδείξει τους λιμένες σε διεθνή εμπορικά και διαμετακομιστικά κέντρα. Οι λιμένες, με οποιοδήποτε καθεστώς ιδιοκτησίας ή λειτουργίας, έχουν αναδειχθεί ως πύλες εισόδου ή εξόδου, που εξυπηρετούν τη διακίνηση του Διεθνούς θαλάσσιου εμπορίου.\nΗ δυνατότητα που δίνει μία χώρα στη λιμενική βιομηχανία, μέσα από το θεσμικό και νομικό πλαίσιο που παρέχει, για ανάπτυξη, αλλά και η ικανότητα της ίδιας της λιμενικής βιομηχανίας να παρέχει αξιόπιστες υπηρεσίες και να ανταποκρίνεται στις απαιτήσεις των χρηστών της, οδηγεί στη διεθνοποίηση των εμπορικών της σχέσεων και στην οικονομική της μεγέθυνση. Η ικανότητα ενός λιμένος στην εξυπηρέτηση των χρηστών του κρίνεται και από τον βαθμό υιοθέτησης διαδικασιών και πρακτικών τέτοιων, που θα  βοηθήσουν στην ενσωμάτωσή του σε ολοκληρωμένα συστήματα μεταφορικών αλυσίδων.\nΗ παρούσα διπλωματική εργασία ασχολείται με τους Λιμένες, την παγκόσμια εμπορική ναυτιλία και την εν γένει συμβολή του συστήματος λιμένων και θαλασσίων μεταφορών στην ανάπτυξη του Διεθνούς εμπορίου. Ειδικότερα, επικεντρώνεται στους λιμένες της Ελλάδας και στην περίπτωση της στρατηγικής θέσης του Λιμένος της Θεσσαλονίκης.\nΗ εργασία είναι χωρισμένη σε δύο μέρη. Στο πρώτο μέρος, το οποίο έχει τίτλο «Οι Διεθνείς Πρακτικές στη Λιμενική Βιομηχανία» γίνεται αναφορά στη Διοίκηση των Λιμένων και στη συμβολή των λιμανιών στην ανάπτυξη του Διεθνούς εμπορίου. Ειδικότερα, παρουσιάζονται οι λιμένες, η σύνδεσή τους με τη ναυτιλιακή βιομηχανία και η αλληλεπίδραση της τελευταίας με τις παγκόσμιες οικονομικές εξελίξεις και την πορεία του διεθνούς εμπορίου. Επίσης, αναλύεται ο τρόπος συσκευασίας και διακίνησης των διάφορων φορτίων και γίνεται ειδική αναφορά στο ρόλο των εμπορευματοκιβωτίων στην ανάπτυξη των συνδυασμένων μεταφορών. Τέλος, καταγράφονται οι τρόποι λιμενικής διακυβέρνησης, από τον πλήρη κρατικό έλεγχο, μέχρι τις σύγχρονες τάσεις φιλελευθεροποίησης της διοίκησης των λιμένων, αλλά και η απαραίτητη σύνδεση της λιμενικής βιομηχανίας με τα Logistics και ο τρόπος μέτρησης της αποτελεσματικότητας τέτοιων συστημάτων.\nΠιο συγκεκριμένα, στο πρώτο κεφάλαιο ορίζεται η έννοια των λιμένων και επιχειρείται η κατάταξή τους και η καταγραφή των λειτουργιών τους. Στο δεύτερο κεφάλαιο γίνεται η διάκριση των θαλασσίων μεταφορών, των διάφορων τύπων φορτίων και αποτυπώνονται οι κύριες παγκόσμιες θαλάσσιες διαδρομές. Στο τρίτο κεφάλαιο καταγράφεται η διεθνής εμπορική ναυτιλία και η εξέλιξη του εμπορικού στόλου. Στο τέταρτο κεφάλαιο αναλύεται η σημασία των θαλασσίων μεταφορών και του μεταφορικού κόστους, ενώ στη συνέχεια επιχειρείται να αποδειχθεί η σύνδεση μεταξύ της λιμενικής και της βιομηχανίας με την ανάπτυξη του διεθνούς εμπορίου. Τέλος, στο πέμπτο κεφάλαιο, αναφέρονται οι παραδοσιακοί τρόποι διοίκησης των λιμένων στο παρελθόν και οι σύγχρονες τάσεις λιμενικής διακυβέρνησης, με τη σύνδεση των λιμανιών στα δίκτυα συνδυασμένων μεταφορών.\nΣτο δεύτερο μέρος, με τίτλο «Η Ελληνική Λιμενική Πραγματικότητα» παρουσιάζονται οι Λιμένες της Ελλάδας και η στρατηγική θέση του Λιμένος της Θεσσαλονίκης. Γίνεται εκτενέστερη αναφορά στο Ελληνικό Λιμενικό σύστημα, στα πλεονεκτήματα των Ελληνικών λιμένων και ειδικότερα στα στρατηγικά χαρακτηριστικά του λιμανιού της Θεσσαλονίκης.\nΠιο συγκεκριμένα, στο έκτο κεφάλαιο αναλύονται τα Ελληνικά Λιμάνια, η οργάνωση και χωροθέτησή τους και τα ιδιοκτησιακά τους καθεστώτα και δίνονται στατιστικά δεδομένα για τα φορτία που διακινούνται. Αναλύεται ειδικότερα το ιδιοκτησιακό καθεστώς και ο τρόπος λειτουργιάς των δύο μεγαλύτερων Ελληνικών λιμανιών, αυτών του Πειραιά και της Θεσσαλονίκης και συνδέεται το Ελληνικό Λιμενικό σύστημα με τα λιμάνια της Ευρώπης, της Μεσογείου και της Μαύρης Θάλασσας. Στη συνέχεια του κεφαλαίου γίνεται αναφορά στην Ελληνική εμπορική Ναυτιλία, στο μέγεθός της και στα οικονομικά της αποτελέσματα, ενώ, στο έβδομο κεφάλαιο περιγράφεται αναλυτικά ο Οργανισμός Λιμένος Θεσσαλονίκης, η οργανωτική του δομή και ο ρόλος του και, τέλος, επιχειρείται S.W.O.T. ανάλυση και παρουσίαση του στρατηγικού σχεδίου του Ο.Λ.Θ. για την βελτίωση των λειτουργιών του λιμένος και την ανάδειξη της σημασίας του.\nΣτο τέλος της εργασίας αναφέρονται τα συμπεράσματα της μελέτης και προτείνονται ιδέες για περαιτέρω έρευνα στο κομμάτι της λιμενικής βιομηχανίας." ],
+    "format" : [ "9651087 bytes", "application/pdf", "234" ],
+    "identifier" : "http://dspace.lib.uom.gr/handle/2159/15536",
+    "language" : "gre",
+    "publisher" : "Πανεπιστήμιο Μακεδονίας Οικονομικών και Κοινωνικών Επιστημών",
+    "subject" : [ "Οργανισμός Λιμένος Θεσσαλονίκης", "Σημασία της μεταφοράς", "Λιμενική βιομηχανία", "Thessaloniki Port Authority", "Εμπορική ναυτιλία", "Ο.Λ.Θ.", "Ναυτιλιακή μεταφορά", "Port governance", "Port management", "Logistics performance index", "Supply chain management", "Γενιές λιμένων", "Διοίκηση λιμένων" ],
+    "title" : "Διοίκηση λιμένων και η συμβολή των λιμανιών στην ανάπτυξη του διεθνούς εμπορίου: οι λιμένες της Ελλάδας και η περίπτωση της στρατηγικής θέσης του Λιμένος της Θεσσαλονίκης.",
+    "type" : [ "Electronic Thesis or Dissertation", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia"
+    }, "Text", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-"
+    } ]
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "narrower" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#narrower",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

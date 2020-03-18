@@ -1,0 +1,141 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000100-oai%3Ahellanicus.lib.aegean.gr%3A11610_9487%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9487",
+    "dataProvider" : "Πανεπιστήμιο Αιγαίου",
+    "isShownAt" : "http://hdl.handle.net/11610/9487",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9487",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : {
+      "@language" : "el",
+      "@value" : "Πανεπιστήμιο Αιγαίου. Σχολή Επιστημών της Διοίκησης. Τμήμα Ναυτιλίας και Επιχειρηματικών Υπηρεσιών."
+    },
+    "creator" : {
+      "@language" : "el",
+      "@value" : "Κρητικός, Νικόλαος"
+    },
+    "description" : {
+      "@language" : "el",
+      "@value" : "Η συγκεκριμένη πτυχιακή εργασία έχει σαν στόχο την μελέτη της Ναυτιλίας Μικρών Αποστάσεων.Ναυτιλία μικρών αποστάσεων είναι η μεταφορά εμπορευμάτων και επιβατών μέσω θαλάσσης, μεταξύ λιμένων που βρίσκονται στην γεωγραφική περιοχή της Ευρώπης ή μεταξύ ευρωπαϊκών λιμένων και λιμένων που βρίσκονται σε τρίτες χώρες, οι οποίες έχουν ακτογραμμή που περιβάλλεται από θάλασσα που συνορεύει με την Ευρώπη.Στα κεφάλαια που αναλύονται ο αναγνώστης θα έχει την ευκαιρία να καταλάβει τις βασικές αρχές που διέπουν την ναυτιλία μικρών αποστάσεων, όσον αφορά το θεσμικό πλαίσιο λειτουργίας, την οικονομική πλευρά του συγκεκριμένου τομέα, την διοικητική τακτική των ναυτιλιακών εταιρειών κ.α."
+    },
+    "identifier" : "http://hdl.handle.net/11610/9487",
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "Combined transport"
+    }, {
+      "@language" : "el",
+      "@value" : "Shipping of small distances"
+    }, {
+      "@language" : "el",
+      "@value" : "Λευκή Βίβλος"
+    }, {
+      "@language" : "el",
+      "@value" : "White Paper"
+    }, {
+      "@language" : "el",
+      "@value" : "Πολιτική προώθησης"
+    }, {
+      "@language" : "el",
+      "@value" : "Εξελίξεις ναυτιλίας μικρών αποστάσεων"
+    }, {
+      "@language" : "el",
+      "@value" : "Policy of promotion"
+    }, {
+      "@language" : "el",
+      "@value" : "Συνδυασμένες μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Developments of shipping of small distances"
+    }, {
+      "@language" : "el",
+      "@value" : "Ναυτιλία Μικρών Αποστάσεων"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Οι εξελίξεις και η πολιτική προώθησης των θαλάσσιων μεταφορών μικρών αποστάσεων στο χώρο της Ευρώπης"
+    },
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "dc:type" : "bachelorThesis",
+    "issued" : "2005"
+  } ],
+  "@context" : {
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

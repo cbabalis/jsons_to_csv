@@ -1,0 +1,104 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_3554",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Καρβούνης, Βασίλειος Κ.",
+    "date" : "2010-07-15T07:47:00Z",
+    "description" : [ "Κατά πολλούς επιστήμονες, το νεοεμφανιζόμενο τη σημερινή εποχή φαινόμενο της παγκοσμιοποίησης, συντελείται ή υποκινείται μέσω των μηχανισμών του Διεθνούς Εμπορίου. Για τη διενέργεια του, υποστηρικτικό ρόλο φαίνεται πως έχει ο τομέας των Μεταφορών όπως και στην εξέλιξη της οικονομικής ανάπτυξης μιας περιοχής. Μετά από τη μονοδιάστατη εξέταση των θαλάσσιων, σιδηροδρομικών, οδικών και αεροπορικών μεταφορών και την οικονομική τους διάσταση, δίνεται έμφαση στις λεγόμενες «Συνδυασμένες Μεταφορές», που κρίνονται ιδιαίτερα ελπιδοφόρες για την ενίσχυση του κλάδου. Από κοινού με τις σύγχρονες παροχές logistics, την αποθήκευση και την διατήρηση λογικού αποθέματος, μπορούν να μειώσουν το κόστος μεταφορών και την τελική τιμή του εμπορεύματος. Ακολουθεί η ανάλυση των μεθόδων αξιολόγησης των επενδύσεων στο τομέα για τη λήψη αποφάσεων και η αποτίμηση της σημασίας αυτών για την οικονομία. Πέραν των ανωτέρω, μεγάλη σημασία έχει και η εξεύρεση τριών μελετών περιπτώσεων (case studies), μέσα από τις οποίες καταδεικνύεται η εφαρμογή στην πράξη των αναλυθέντων στο θεωρητικό μέρος, ώστε να επιδιώκεται να σχεδιάζονται αποδοτικά συστήματα μεταφορών, αφού στηρίζουν την οικονομία και την γενικότερη ανάπτυξη μεταξύ των περιοχών που εμπορεύονται.", "According to some scientists, the new – appeared phenomenon of Internalization is conduced or carried out through the mechanisms of International Trade. For this kind of activity, the Transport Sector acts supportively and seems to play determinant role to one region’s economic progressiveness. After a separate, closer examination of the sea, train, road and air transports, emphasis is given on combined transport, which is particularly considered of higher expectations of success. Together with the logistics services, through the store - keeping and the maintaining of a logical repository portion, they can successively reduce the transport cost; thus, the final price of goods. The methods of approval for investments on Transports are followed as well as the investments’ importance for the economy. Beyond all above, interesting three case studies are presented to connect theory and practice part. Their analysis is crucial to plan effective Transport Systems, since it is for sure that they support the economy and the development of those regions which develop trade relationship." ],
+    "identifier" : [ "http://dione.lib.unipi.gr/xmlui/handle/unipi/3554", "382.1 ΚΑΡ" ],
+    "language" : "gre",
+    "subject" : [ "Παγκοσμιοποίηση -- Οικονομικές απόψεις", "Οικονομική ανάπτυξη", "Διεθνές εμπόριο", "Αποφάσεις, Λήψη των", "Μεταφορές" ],
+    "title" : "Σχέσεις μεταξύ διεθνούς εμπορίου, οικονομικής ανάπτυξης και των μεταφορών = relationships between international trade, economic growth and transport services",
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "dc:type" : "Master Thesis"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000013-unipi_3554%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_3554",
+    "dataProvider" : "Πανεπιστήμιο Πειραιώς",
+    "isShownAt" : "http://dione.lib.unipi.gr/xmlui/handle/unipi/3554",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000015-oai%3Ahua.gr%3A8623%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/estia/000015-8623",
+    "dataProvider" : "Χαροκόπειο Πανεπιστήμιο",
+    "isShownAt" : "http://estia.hua.gr/browse/8623",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/estia/000015-8623",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Μπαρνασά, Δήμητρα",
+    "date" : "2012-03-29",
+    "description" : "Τις τελευταίες δύο δεκαετίες η σταθερή ανάπτυξη του θαλάσσιου εμπορίου έχει ως αποτέλεσμα την αύξηση των πλοίων μεταφοράς εμπορευματοκιβωτίων αλλά και την άνθηση νέων τεχνολογιών όπως τα πλοία μεταφοράς αυτοκινήτων. Βασικός παράγοντας για τη βελτίωση και την εξέλιξη των εμπορευματικών μεταφορών διαδραματίζουν, η πρόοδος των ηλεκτρονικών μέσων, τα Logistics και τα εμπορευματικά κέντρα. Συγκεκριμένα, ο εκσυγχρονισμός των λιμένων και των τερματικών σταθμών εμπορευματοκιβωτίων και αυτοκινήτων καθορίστηκε από την εκδήλωση των συνδυασμένων μεταφορών μέσα από τη συνεχώς αυξανόμενη διάδοση της χρήσης των υπηρεσιών Logistics. Στόχος της παρούσας διπλωματικής εργασίας είναι η ανάλυση των θαλάσσιων εμπορευματικών μεταφορών και η σημασία του λιμανιού του Πειραιά, εξαιτίας της στρατηγικής του θέσης στη σύγχρονη γεωγραφία των μεταφορών : ως βασική πύλη εισόδου φορτίων βασικά από την Ασία προς την Ευρώπη αλλά και γενικότερα ως σημαντικού κόμβου των εφοδιαστικών αλυσίδων. Ειδικότερα εξετάζονται οι υποδομές και λειτουργίες των λιμένων και των τερματικών σταθμών των εμπορευματοκιβωτίων και αυτοκινήτων του λιμανιού του Πειραιά και μελετούνται οι παράγοντες που μπορούν να επηρεάσουν την εξέλιξη τους. Η εργασία, μέσα από τα στατιστικά στοιχεία που παρουσιάζονται στην παρούσα εργασία, αποσκοπεί στην αντικειμενική ανάλυση αυτών των δύο κλάδων. Συμπερασματικά παρόλα τα προβλήματα που αντιμετωπίζει το λιμάνι του Πειραιά ως προς τους τερματικούς σταθμούς των εμπορευματοκιβωτίων και των αυτοκινήτων, υπάρχουν προοπτικές εξέλιξης αυτών των τερματικών σταθμών μέσα από συντονισμένες δράσεις και ενέργειες, ώστε να διαδραματίσει σημαντικό ρόλο στις μεταφορές, σε συνδυασμό με την ανάπτυξη του μεγαλύτερου υπό κατασκευή εμπορευματικού κέντρου στο Θριάσιο.",
+    "identifier" : [ "http://estia.hua.gr/dl/object/hua.gr:8623", "hua.gr:8623" ],
+    "subject" : [ "Γεωγραφία των μεταφορών - Ελλάδα - Αττική (Νομός) - Πειραιάς", "Logistics", "Πειραιάς - Εμπόριο", "Transportation geography - Greece - Attica (Nome) - Piraeus", "Piraeus (Greece) - Commerce", "Εφοδιαστική" ],
+    "title" : "Ο ρόλος του λιμανιού του Πειραιά ως διαμετακομιστικό κέντρο αυτοκινήτων και εμπορευματοκιβωτίων στη σύγχρονη γεωγραφία των μεταφορών",
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "dc:type" : [ {
+      "@language" : "el",
+      "@value" : "Πτυχιακή Εργασία"
+    }, {
+      "@language" : "en",
+      "@value" : "Graduate Thesis"
+    }, "graduate_thesis" ]
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

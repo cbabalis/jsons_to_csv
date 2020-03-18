@@ -1,0 +1,104 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_3541",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Κουντούρης, Σωτήριος",
+    "date" : "2010-06-23T14:27:03Z",
+    "description" : "Η παρούσα διπλωματική εργασία προσπαθεί να αναδείξει τη σημασία και τη συμβολή λιμανιών όπως ο Αστακός στην εξέλιξη και στην δυναμική της Ναυτιλίας Μικρών Αποστάσεων. Αναφέρονται τα χαρακτηριστικά, τα πλεονεκτήματά και η επίδραση της Ν.Μ.Α, αλλά και του Αστακού, στην εθνική οικονομία και στις συνδυασμένες μεταφορές. Επίσης εξετάζονται οι προοπτικές και οι δυνατότητες του Αστακού να ανταγωνιστεί αλλά και να δράσει συναγωνιστικά με τα υπόλοιπα ελληνικά λιμάνια και συμπεραίνει πως πληρεί τις προϋποθέσεις να εξελιχθεί σε σημαντικό μεταφορικό και μεταφορτωτικό κέντρο στην περιοχή, έχοντας ως κύρια πλεονεκτήματα την κομβική του θέση στην Α. Μεσόγειο και στην Βαλκανική, τον σύγχρονο εξοπλισμό του και τις εγκαταστάσεις που διαθέτει, αλλά και τις διεργασίες που βρίσκονται σε εξέλιξη για την άμεση σύνδεση του με την υπόλοιπη Ελλάδα.",
+    "identifier" : [ "http://dione.lib.unipi.gr/xmlui/handle/unipi/3541", "387.5 ΚΟΥ" ],
+    "language" : "gre",
+    "subject" : [ "Λιμάνια -- Οικονομικές απόψεις", "Λιμάνια -- Ελλάδα", "Λιμάνια -- Διοίκηση και οργάνωση" ],
+    "title" : "Η συμβολή λιμανιών με τα χαρακτηριστικά του Αστακού στην ανάπτυξη της ναυτιλίας μικρών αποστάσεων",
+    "type" : [ "Master Thesis", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000013-unipi_3541%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_3541",
+    "dataProvider" : "Πανεπιστήμιο Πειραιώς",
+    "isShownAt" : "http://dione.lib.unipi.gr/xmlui/handle/unipi/3541",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

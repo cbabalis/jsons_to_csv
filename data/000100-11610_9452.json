@@ -1,0 +1,141 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000100-oai%3Ahellanicus.lib.aegean.gr%3A11610_9452%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9452",
+    "dataProvider" : "Πανεπιστήμιο Αιγαίου",
+    "isShownAt" : "http://hdl.handle.net/11610/9452",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9452",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : {
+      "@language" : "el",
+      "@value" : "Πανεπιστήμιο Αιγαίου. Σχολή Επιστημών της Διοίκησης. Τμήμα Ναυτιλίας και Επιχειρηματικών Υπηρεσιών."
+    },
+    "creator" : {
+      "@language" : "el",
+      "@value" : "Βογιατζή, Σοφία"
+    },
+    "description" : {
+      "@language" : "el",
+      "@value" : "Η εργασία αναφέρεται στην ανάπτυξη μίας μεθόδου χωροθέτησης εμπορευματικών κέντρων, βασισμένη στην χρήση Γεωγραφικών Συστημάτων πληροφοριών. Συγκεκριμένα χρησιμοποιείται το πρόγραμμα Arcview της ESRI, ενώ τα αποτελέσματα που αποδίδονται φαίνονται λογικά και ικανοποιητικά, και αφορούν τις προτεινόμενες θέσεις εγκατάστασης εμπορευματικών κέντρων. Η εργασία περιλαμβάνει τέσσερα κεφάλαια, την Εισαγωγή, την Θεωρία Υποβάθρου, την Παρουσίαση της Μεθόδου, την Αξιολόγηση των Αποτελεσμάτων και τέλος τα Συμπεράσματα."
+    },
+    "identifier" : "http://hdl.handle.net/11610/9452",
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "Freight village"
+    }, {
+      "@language" : "el",
+      "@value" : "Έλξη Μετακινήσεων"
+    }, {
+      "@language" : "el",
+      "@value" : "Origin-Destination Matrix"
+    }, {
+      "@language" : "el",
+      "@value" : "Γένεση Μετακινήσεων"
+    }, {
+      "@language" : "el",
+      "@value" : "Μητρώο Προέλευσης - Προορισμού"
+    }, {
+      "@language" : "el",
+      "@value" : "Trip Attraction"
+    }, {
+      "@language" : "el",
+      "@value" : "Γεωγραφικά Συστήματα Πληροφοριών"
+    }, {
+      "@language" : "el",
+      "@value" : "Geographical Information System"
+    }, {
+      "@language" : "el",
+      "@value" : "Trip Generation"
+    }, {
+      "@language" : "el",
+      "@value" : "Εμπορευματικό Κέντρο"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Μέθοδος χωροθέτησης δικτύου τερματικών σταθμών συνδυασμένων μεταφορών στην Ελλάδα"
+    },
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "dc:type" : "bachelorThesis",
+    "issued" : "2006"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

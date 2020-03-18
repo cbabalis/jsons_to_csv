@@ -1,0 +1,184 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material",
+    "@type" : "skos:Concept",
+    "exactMatch" : "http://dbpedia.org/page/Category:Educational_materials",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Educational material"
+    }, {
+      "@language" : "el",
+      "@value" : "Εκπαιδευτικό υλικό"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/book",
+    "@type" : "skos:Concept",
+    "exactMatch" : [ "http://dbpedia.org/page/Book", "http://vocab.getty.edu/aat/300028051" ],
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Book"
+    }, {
+      "@language" : "el",
+      "@value" : "Βιβλίο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000065-oai%3Arepository.kallipos.gr%3A11419_5391%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_5391",
+    "dataProvider" : "Σύνδεσμος Ελληνικών Ακαδημαϊκων Βιβλιοθηκών",
+    "isShownAt" : "http://hdl.handle.net/11419/5391",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_5391",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : [ {
+      "@language" : "el",
+      "@value" : "Ιακώβου, Ελευθέριος"
+    }, {
+      "@language" : "en",
+      "@value" : "Iakovou, Eleftherios"
+    }, {
+      "@language" : "en",
+      "@value" : "Kallipos"
+    }, {
+      "@language" : "el",
+      "@value" : "Κάλλιπος"
+    }, {
+      "@language" : "en",
+      "@value" : "Kalliaras, Dimitris"
+    }, {
+      "@language" : "en",
+      "@value" : "Koumartzis, Nikolaos"
+    }, {
+      "@language" : "el",
+      "@value" : "Καλλιάρας, Δημήτρης"
+    }, {
+      "@language" : "el",
+      "@value" : "Κουμαρτζής, Νικόλαος"
+    } ],
+    "creator" : [ {
+      "@language" : "en",
+      "@value" : "Malindretos, Georgios"
+    }, {
+      "@language" : "el",
+      "@value" : "Μαλινδρέτος, Γεώργιος"
+    } ],
+    "description" : {
+      "@language" : "el",
+      "@value" : "Το βιβλιο απευθύνεται σε προπτυχιακούς και μεταπτυχιακούς σπουδαστές αλλά και σε επαγγελματίες που επιθυμούν να εμβαθύνουν τόσο στο θεωρητικό υπόβαθρο της επιστήμης της Εφοδιαστικής Αλυσίδας όσο και σε πρακτικά παραδείγματα εφαρμογής της, στο νέο σύγχρονο περιβάλλον των απαιτήσεων για Βιωσιμότητα και αειφορία.  Η Εφοδιαστική (Logistics) ως επιστήμη, περιλαμβάνει τη διακίνηση και διαχείριση των προϊόντων από την παραγωγή έως την κατανάλωση, με το μικρότερο δυνατό κόστος (ελαχιστοποίηση κόστους). Η ανάγκη γι΄ αυτό εντάθηκε από την ανάπτυξη ανταγωνιστικών συνθηκών μεταξύ των επιχειρήσεων στο να παράγουν ανταγωνιστικά προϊόντα (ποιότητα, τιμές, λειτουργικότητα, κτλ.) καθώς και υπηρεσίες εξυπηρέτησης των πελατών– καταναλωτών.  Από το αντικείμενο της Εφοδιαστικής, φαίνεται σαφώς ότι πρόκειται ουσιαστικά για μια μέθοδο διοίκησης (management), που είναι γνωστή ως “Μάνατζμεντ της Εφοδιαστικής Αλυσίδας (Supply Chain Management: SCM).   Βασικό αντικείμενο του βιβλίου θα αποτελέσουν ενδεικτικά   ΣΧΕΔΙΑΣΜΟΣ ΚΑΙ ΟΡΓΑΝΩΣΗ LOGISTICS ΚΑΙ EΞΥΠΗΡΕΤΗΣΗΣ ΠΕΛΑΤΩΝ Iστορική επισκόπηση και βασικές έννοιες της Εφοδιαστικής Αλυσίδας  Εννοιολογικές προσεγγίσεις και διαστάσεις της Εξυπηρέτησης των Πελατών Πρακτικές προσθήκης αξίας στους πελάτες από τις επιχειρήσεις - Πολιτικές Εξυπηρέτησης Διαχείριση αποθεμάτων και προμηθειών  Οργάνωση και διαχείριση Αποθηκευτικών Κέντρων  Σχεδιασμός Μεταφορικών συστημάτων (Μέσα μεταφοράς, Συνδυασμένες Μεταφορές) Στρατηγικός σχεδιασμός Εφοδιαστικής Αλυσίδας  Συσκευασία, Κωδικοποίηση Προϊόντων και Ιχνηλασιμότητα  Πληροφοριακά συστήματα υποστήριξης Εφοδιαστικής Αλυσίδας   EΙΔΙΚΑ ΘΕΜΑΤΑ ΕΦΟΔΙΑΣΤΙΚΗΣ  Βιωσιμότητα και εφοδιαστική αλυσίδα - Green and Reverse Logistics  Αξιολόγηση Βιωσιμότητας Εφοδιαστικών Αλυσίδων  Αστικές Εμπορευματικές Μεταφορές (City Logistics) στις 'έξυπνες πόλεις' ('Smart Cities') Η αγροδιατροφική αλυσίδα - Food Logistics  Εφαρμογές Logistics στο Δημόσιο Τομέα"
+    },
+    "identifier" : "http://hdl.handle.net/11419/5391",
+    "language" : "gre",
+    "publisher" : [ {
+      "@language" : "el",
+      "@value" : "Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών"
+    }, {
+      "@language" : "en",
+      "@value" : "Hellenic Academic Libraries Link"
+    } ],
+    "subject" : [ {
+      "@language" : "en",
+      "@value" : "Logistics"
+    }, {
+      "@language" : "el",
+      "@value" : "ΔΙΚΤΥΑ ΔΙΑΝΟΜΗΣ"
+    }, {
+      "@language" : "el",
+      "@value" : "ΒΙΩΣΙΜΟΤΗΤΑ"
+    }, {
+      "@language" : "en",
+      "@value" : "Customer Service"
+    }, {
+      "@language" : "en",
+      "@value" : "Sustainability"
+    }, {
+      "@language" : "en",
+      "@value" : "Distibution Channels"
+    }, {
+      "@language" : "en",
+      "@value" : "Supply Chain"
+    }, {
+      "@language" : "el",
+      "@value" : "ΕΦΟΔΙΑΣΤΙΚΗ ΑΛΥΣΙΔΑ"
+    }, {
+      "@language" : "el",
+      "@value" : "ΕΞΥΠΗΡΕΤΗΣΗ ΠΕΛΑΤΩΝ"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Εφοδιαστική αλυσίδα, logistics και εξυπηρέτηση πελατών"
+    },
+    "type" : [ "book", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material"
+    }, {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/book"
+    }, "learningMaterial" ],
+    "created" : "2015"
+  } ],
+  "@context" : {
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

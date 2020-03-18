@@ -1,0 +1,104 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_2885",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Χουντάλας, Βασίλειος",
+    "date" : "2008-11-21T12:52:08Z",
+    "description" : "Η παρούσα διπλωματική εργασία ως σκοπό έχει να μελετήσει την ακτοπλοϊκή σύνδεση της νήσου Σαλαμίνας με τη Στερεά Ελλάδα. Πιο συγκεκριμένα, αντικείμενο της μελέτης αποτελεί η πορθμειακή γραμμή Παλουκίων–Περάματος. Υπήρξαν δύο περιπτώσεις προς ανάλυση, οι χρήστες των Ε/Γ-Ο/Γ πορθμείων της γραμμής Παλουκίων–Περάματος και οι χρήστες των Ε/Γ πλοιαρίων της ίδιας γραμμής. Η έρευνα πραγματοποιήθηκε με ερωτηματολόγια στα οποία απάντησαν τα μέλη των δύο ομάδων κατόπιν συνέντευξης.  Επίσης αναζητήθηκαν πρόσφατα στοιχεία από τις Λιμενικές και τοπικές αρχές. Στην εργασία γίνονται αναφορές και σε άλλες παρόμοιες ακτοπλοϊκές συνδέσεις στον διεθνή χώρο, οι οποίες φαίνεται να κερδίζουν έδαφος ως εναλλακτικοί και περιβαλλοντικά φιλικοί τρόποι επιβατικών μεταφορών, σε σχέση με τους χερσαίους τρόπους επιβατικών μεταφορών. Σε πολλές πόλεις του κόσμου οι πλωτές επιβατικές μεταφορές αποτελούν αναπόσπαστο και σημαντικό τμήμα ολοκληρωμένων συστημάτων συνδυασμένων αστικών συγκοινωνιών και έχουν γίνει μέρος της καθημερινότητας των κατοίκων τους. Στην Ελλάδα υπάρχουν πολλές πορθμειακές γραμμές οι οποίες αποτελούν τμήμα της Ναυτιλίας Μικρών Αποστάσεων. Η σημαντικότερη ελληνική πορθμειακή γραμμή που συνδέει τα Παλούκια Σαλαμίνας με το Πέραμα, αποτελεί αντικείμενο της μελέτης μας. Πρόκειται για ένα έμμεσο σύστημα θαλάσσιας αστικής συγκοινωνίας, αφού συνιστά τον μόνο τρόπο σύνδεσης της Σαλαμίνας με τη Στερεά Ελλάδα. Άξιο αναφοράς είναι το γεγονός ότι ο πληθυσμός της Σαλαμίνας πλησιάζει τους 42.000 κατοίκους. Σκοπός της μελέτης είναι να διαπιστωθεί η λειτουργικότητα και εξυπηρετικότητα της συγκεκριμένης γραμμής, καθώς και ο βαθμός ικανοποίησης των χρηστών της.",
+    "identifier" : [ "http://dione.lib.unipi.gr/xmlui/handle/unipi/2885", "387.5 ΧΟΥ" ],
+    "language" : "gre",
+    "subject" : [ "Θαλάσσιες γραμμές -- Ελλάδα", "Ακτοπλοϊα -- Σαλαμίνα (Ελλάδα)", "Ακτοπλοΐα" ],
+    "title" : "Μελέτη της ακτοπλοϊκής σύνδεσης Παλουκιών - Σαλαμίνας - Περάματος : ανάδειξη των χαρακτηριστικών της κίνησης και προτάσεις για βελτίωση στα πλαίσια της βιώσιμης ανάπτυξης",
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "dc:type" : "Master Thesis"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000013-unipi_2885%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_2885",
+    "dataProvider" : "Πανεπιστήμιο Πειραιώς",
+    "isShownAt" : "http://dione.lib.unipi.gr/xmlui/handle/unipi/2885",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

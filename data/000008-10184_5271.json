@@ -1,0 +1,107 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000008-oai%3A195.251.240.254%3A10184_5271%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/eureka/000008-10184_5271",
+    "dataProvider" : "Αλεξάνδρειο Τεχνολογικό Εκπαιδευτικό Ίδρυμα (Α.Τ.Ε.Ι.) Θεσσαλονίκης",
+    "isShownAt" : "http://hdl.handle.net/10184/5271",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/eureka/000008-10184_5271",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : "Δάλλα, Φανή",
+    "creator" : [ "Κυράνος, Πέτρος", "Κατσιώτης, Πέτρος" ],
+    "date" : "2013-10-20T12:41:55Z",
+    "description" : [ "Πτυχιακή εργασία-- Σχολή Τεχνολογικών Εφαρμογών -- Τμήμα Πολιτικών Έργων Υποδομής,2010--αα3068", "Η παρούσα πτυχιακή εργασία παρουσιάζει την ασφάλεια εργασίας σε μεταλλική κατασκευή μονάδας της ΔΕΗ συνδυασμένου κύκλου αερίου στην Κομοτηνή. Στη σύγχρονη εποχή η ασφάλεια χρησιμοποιείται ως βασικός όρος για να προσδιορίσει την αποφυγή ατυχημάτων και την προστασία της ανθρώπινης ζωής, της ανθρώπινης περιουσίας και του περιβάλλοντος. Παρ’ όλες τις προσπάθειες αποφυγής ατυχημάτων και σοβαρών περιστατικών, λάθη, σφάλματα και αστοχίες συμβαίνουν και θα συμβαίνουν πάντα, καθώς καμία ανθρώπινη δραστηριότητα και κανένα μηχάνημα δεν μπορεί να είναι απόλυτα ασφαλή. Η επιφάνεια, το ύψος και ο όγκος αέρα πρέπει να επιτρέπουν στους εργαζόμενους να εκτελούν την εργασία τους χωρίς κίνδυνο για την ασφάλεια, την υγεία την ευεξία τους. Ο υπολογισμός των διαστάσεων των χώρων εργασίας πραγματοποιείται έτσι ώστε αυτές να καλύπτουν τις ανάγκες της κανονικής παραγωγικής διαδικασίας και τις ανάγκες συντήρησης, επισκευής, εγκατάστασης, συναρμολόγησης και αποσυναρμολόγησης του τεχνολογικού εξοπλισμού. Επίσης, θα πρέπει να καλύπτουν τις ανάγκες κυκλοφορίας των εργαζομένων, οχημάτων μεταφοράς, τις ανάγκες διακίνησης υλικών και φορτίων, τις ανάγκες συντήρησης και καθαρισμού των χώρων.Επίσης παρουσιάζει το φυσικό αέριο που έχει εισαχθεί στο ενεργειακό σύστημα της Ελλάδας και προβλέπεται αύξηση της συμμετοχής του στο ενεργειακό ισοζύγιο της ΔΕΗ." ],
+    "identifier" : "http://hdl.handle.net/10184/5271",
+    "language" : "gre",
+    "subject" : [ "Φυσικό αέριο", "Natural gas-Greece", "Ασφάλεια εργασίας", "Μεταλλική κατασκευή", "Κομοτηνή", "Φυσικό αέριο-Ελλάδα", "Ανανεώσιμες πηγές ενέργειας", "Κομοτηνή(Ελλάδα)-Περιγραφή και ταξίδια", "Δημόσια Επιχείρηση Ηλεκτρισμού" ],
+    "title" : "Ασφάλεια εργασίας σε μεταλλική κατασκευή μονάδας της ΔΕΗ συνδυασμένου κύκλου αερίου στην Κομοτηνή",
+    "type" : [ "Thesis", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia"
+    } ]
+  } ],
+  "@context" : {
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

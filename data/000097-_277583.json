@@ -1,0 +1,106 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material",
+    "@type" : "skos:Concept",
+    "exactMatch" : "http://dbpedia.org/page/Category:Educational_materials",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Educational material"
+    }, {
+      "@language" : "el",
+      "@value" : "Εκπαιδευτικό υλικό"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_277583",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : [ "Μπάσμπας, Σωκράτης", "Ευστάθιος Μπουχουράς, Δρ., Διπλωματούχος Αγρονόμος & Τοπογράφος Μηχανικός - Συγκοινωνιολόγος, Α.Π.Θ., MSc «Σχεδιασμός, οργάνωση και διαχείριση συστημάτων μεταφορών», Α.Π.Θ., PhD City Logistics Τμήμα Αγρονόμων και Τοπογράφων Μηχανικών, Α.Π.Θ." ],
+    "date" : [ "2014", "2015-11-14T12:32:36Z" ],
+    "description" : [ "Fundamental concepts and relations in the transport sector: demand, offer and their interrelations, determination of cost for the implementation and operation of transportation systems. Methods of the determination of cost. Elements for the evaluation of investments in the transport sector using cost benefit analysis and multi-criteria analysis. Elements of national and European economic policy in the transport sector.", "Θεμελιώδεις έννοιες και σχέσεις οικονομίας των μεταφορών: Ζήτηση, προσφορά και μεταξύ τους σχέσεις, ορισμός κόστους εγκατάστασης και λειτουργίας συγκοινωνιακών συστημάτων. Μέθοδοι προσδιορισμού κόστους. Στοιχεία αξιολόγησης επενδύσεων στον τομέα των μεταφορών μέσω ανάλυσης κόστους ωφελειών και μεθοδολογίας πολλαπλών κριτηρίων. Στοιχεία εθνικής και ευρωπαϊκής οικονομικής πολιτικής στον τομέα των μεταφορών." ],
+    "format" : "Text",
+    "identifier" : "http://ikee.lib.auth.gr/record/277583",
+    "language" : "gre",
+    "publisher" : [ "Aristotle University of Thessaloniki, Thessaloniki, Greece", "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης, Πολυτεχνική Σχολή, Τμήμα Αγρονόμων Τοπογράφων Μηχανικών" ],
+    "subject" : [ "Τιμολόγηση Μεταφορικών Υπηρεσιών", "Transport Sector Investment", "Elasticities", "Οικονομική των Μεταφορών", "Maritime Transport", "Εξωτερικό ή Κοινωνικό Κόστος", "Transport Demand and Supply", "Ζήτηση και Προσφορά Μεταφορικών Υπηρεσιών", "Transportation and the Economy", "Transport Economics", "Εσωτερικοποίηση του Εξωτερικού Κόστους", "Επενδύσεις στον Τομέα των Μεταφορών.", "Μεταφορές και Οικονομία", "Internalisation of Transport external costs", "Natural Sciences, Earth and Related Environmental Sciences", "Συνδυασμένες Μεταφορές", "External or Social Cost", "Combined Transport", "Ελαστικότητες", "Θετικές και Φυσικές Επιστήμες, Γεωεπιστήμες & Επιστήμες Περιβάλλοντος", "Pricing of Transport Services", "Θαλάσσιες Μεταφορές" ],
+    "title" : "Οικονομική των μεταφορών",
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material",
+    "dc:type" : [ "Lecture / Μάθημα", "info:eu-repo/semantics/lecture" ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000097-oai%3Aikee.lib.auth.gr%3A277583%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_277583",
+    "dataProvider" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
+    "isShownAt" : "http://ikee.lib.auth.gr/record/277583",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

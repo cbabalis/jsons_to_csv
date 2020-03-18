@@ -1,0 +1,175 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material",
+    "@type" : "skos:Concept",
+    "exactMatch" : "http://dbpedia.org/page/Category:Educational_materials",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Educational material"
+    }, {
+      "@language" : "el",
+      "@value" : "Εκπαιδευτικό υλικό"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/kefalaio",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Issue-segment",
+    "exactMatch" : "http://vocab.getty.edu/aat/300311699",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Chapter"
+    }, {
+      "@language" : "el",
+      "@value" : "Κεφάλαιο"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/tmhma-biblioy",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Issue-segment",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Book part"
+    }, {
+      "@language" : "el",
+      "@value" : "Τμήμα βιβλίου"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000065-oai%3Arepository.kallipos.gr%3A11419_80%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_80",
+    "dataProvider" : "Σύνδεσμος Ελληνικών Ακαδημαϊκων Βιβλιοθηκών",
+    "isShownAt" : "http://hdl.handle.net/11419/80",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_80",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : [ {
+      "@language" : "en",
+      "@value" : "Kallipos"
+    }, {
+      "@language" : "el",
+      "@value" : "Βλαχογιάννης, Μιχαήλ"
+    }, {
+      "@language" : "el",
+      "@value" : "Κάλλιπος"
+    }, {
+      "@language" : "en",
+      "@value" : "Vlachogiannis, Michail"
+    } ],
+    "creator" : [ {
+      "@language" : "el",
+      "@value" : "Μποντόζογλου, Βασίλειος"
+    }, {
+      "@language" : "en",
+      "@value" : "Bontozoglou, Vasileios"
+    } ],
+    "description" : {
+      "@language" : "el",
+      "@value" : "Παρουσιάζεται η μεθοδολογία κατάστρωσης ισοζυγίων μάζας μεταξύ των ρευμάτων εισόδου-εξόδου διάφορων συσκευών. Σχολιάζονται ρεύματα με ειδική λειτουργική σημασία: ρεύματα ανακύκλωσης, παράκαμψης και απομάκρυνσης υλικών. Επιλύονται παραδείγματα ισοζυγίων μάζας σε φυσικές διεργασίες κρυστάλλωσης, απόσταξης, εκχύλισης, ατμοπαραγωγής και σε χημικές διεργασίες. Εξετάζεται ως σύνθετο παράδειγμα η βασική τεχνολογία παραγωγής αμμωνίας.  Καταστρώνεται το γενικό ισοζύγιο ενέργειας και εντοπίζονται οι όροι που μπορούν να αγνοηθούν κατά την εφαρμογή του σε διεργασίες μεταφοράς μάζας. Γίνεται ανασκόπιση των μεθοδολογιών υπολογισμού μεταβολών ενθαλπίας, καθώς και των πρότυπων ενθαλπιών αντίδρασης και ανάμειξης. Επιλύονται παραδείγματα συνδυασμένων ισοζυγίων μάζας και ενέργειας σε διεργασίες εξάτμισης, κλασματικής απόσταξης, καύσης, ασβεστοποίησης και ανάμειξης διαλυμάτων οξέων."
+    },
+    "identifier" : "http://hdl.handle.net/11419/80",
+    "language" : "gre",
+    "publisher" : [ {
+      "@language" : "en",
+      "@value" : "Hellenic Academic Libraries Link"
+    }, {
+      "@language" : "el",
+      "@value" : "Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών"
+    } ],
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "ΔΙΕΡΓΑΣΙΕΣ ΜΕΤΑΦΟΡΑΣ ΜΑΖΑΣ"
+    }, {
+      "@language" : "en",
+      "@value" : "Unit Operations"
+    }, {
+      "@language" : "en",
+      "@value" : "Mass-transfer Processes"
+    }, {
+      "@language" : "el",
+      "@value" : "ΦΥΣΙΚΕΣ ΔΙΕΡΓΑΣΙΕΣ"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Ισοζύγια μάζας και ενέργειας"
+    },
+    "type" : [ "bookChapter", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material"
+    }, {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/tmhma-biblioy"
+    }, {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/kefalaio"
+    }, "learningMaterial" ],
+    "created" : "2015-10-01"
+  } ],
+  "@context" : {
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

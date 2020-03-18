@@ -1,0 +1,135 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000100-oai%3Ahellanicus.lib.aegean.gr%3A11610_9537%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9537",
+    "dataProvider" : "Πανεπιστήμιο Αιγαίου",
+    "isShownAt" : "http://hdl.handle.net/11610/9537",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9537",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : {
+      "@language" : "el",
+      "@value" : "Πανεπιστήμιο Αιγαίου. Σχολή Επιστημών της Διοίκησης. Τμήμα Ναυτιλίας και Επιχειρηματικών Υπηρεσιών."
+    },
+    "creator" : {
+      "@language" : "el",
+      "@value" : "Τορνάρη, Μαρία"
+    },
+    "description" : {
+      "@language" : "el",
+      "@value" : "Η εργασία παρουσιάζει αρχικά γενικά στοιχεία για τα Εμπορευματικά κέντρα στον εθνικό και διεθνή χώρο και τους λόγους που υπαγορεύουν την ανάπτυξή τους στην Ελλάδα. Συγκεκριμένα παρουσιάζει το εμπορευματικό κέντρο στο Θριάσιο Πεδίο, την εμπορευματική κίνηση που θα εξυπηρετήσει, τις εγκαταστάσεις και τις υπηρεσίες που θα προσφέρει.Το κυρίως μέρος της εργασίας είναι η βιωσιμότητα του Θριάσιου Εμπορευματικού Κέντρου με καθαρά χρηματοοικονομικά κριτήρια προκειμένου να αποτελέσει ελκυστική επένδυση για τον ιδιωτικό τομέα. για αυτό το σκοπό υπολογίζεται ο Δείκτης Εσωτερικής Απόδοσης που κρίνει την συμμετοχή του ιδιωτικού τομέα. Για τον υπολογισμό του πρέπει να βρεθούν οι ταμιακές ροές (τα κέρδη ανά έτος λειτουργίας) και το κόστος επένδυσης. Ο Δείκτης υπολογίζεται λαμβάνοντας ενδεικτικά μεγέθη κίνησης, ενδεικτικές τιμές κόστους και εσόδων για το εμπορευματικό κέντρο. Το απότελεσμα είναι ότι ο δείκτης προκύπτει αρνητικό για όλα τα έτη και συνεπώς δεν αποτελεί ελκυστική επένδυση."
+    },
+    "identifier" : "http://hdl.handle.net/11610/9537",
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "Συνδυασμένες μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Intermodal Transport"
+    }, {
+      "@language" : "el",
+      "@value" : "Transport"
+    }, {
+      "@language" : "el",
+      "@value" : "Transport of cargo by railway"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Σιδηροδρομικές εμπορευματικές μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Θριάσιο"
+    }, {
+      "@language" : "el",
+      "@value" : "Thriasio"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Σενάριο για μία Χρηματοοικονομική Υπόθεση της Βιωσιμότητας του Θριάσιου Εμπορευματικού Κέντρου"
+    },
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "dc:type" : "bachelorThesis",
+    "issued" : "2004"
+  } ],
+  "@context" : {
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

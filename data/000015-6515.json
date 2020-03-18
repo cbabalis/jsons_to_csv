@@ -1,0 +1,105 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000015-oai%3Ahua.gr%3A6515%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/estia/000015-6515",
+    "dataProvider" : "Χαροκόπειο Πανεπιστήμιο",
+    "isShownAt" : "http://estia.hua.gr/browse/6515",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/estia/000015-6515",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Βολικάκης, Γεώργιος",
+    "date" : "2011-08-02",
+    "description" : "Η παρούσα εργασία είναι μια προσπάθεια καταγραφής της ανάπτυξης των εμπορευματικών κέντρων στην Ευρώπη αλλά και της προσπάθειας για την ανάπτυξή τους στον Ελλαδικό χώρο. Αρχικά, καταγράφονται τα χαρακτηριστικά των αστικών εμπορευματικών μεταφορών. Επίσης, αποτυπώνεται η σημασία τους στην λειτουργία μιας πόλης, οι δυνατότητες βελτίωσης των μεταφορών όσον αφορά την κυκλοφοριακή υποδομή και τις συνδέσεις την μεταφορικής αλυσίδας εντός και εκτός των πόλεων. Ακόμη αναφέρονται τα προβλήματα που δημιουργούν όπως τα κυκλοφοριακά ή τα περιβαλλοντικά. Στη συνέχεια γίνεται μια ανάλυση για το τι είναι τα Εμπορευματικά Κέντρα. Καταγράφονται οι τύποι, οι τρόποι δημιουργίας τους, ο τρόπος οργάνωσής τους, ενώ γίνεται μια εκτεταμένη αναφορά για τα Αστικά Κέντρα Ομαδοποίησης Εμπορευμάτων τα οποία αποτελούν ένα έιδος Εμπορευματικού Κέντρου. Επίσης, αναλύεται η λειτουργία της εφοδιαστικής αλυσίδας (logistics) και των συνδυασμένων μεταφορών η οποία είναι υπεύθυνη για την σωστή λειτουργία ενός Εμπορευματικού Κέντρου. Έπειτα γίνεται ανάλυση σχετικά με την ανάπτυξη των Εμπορευματικών Κέντρων σε Ευρωπαϊκές χώρες αλλά και την λειτουργία των διευρωπαϊκών δικτύων. Τέλος αναλύεται η ανάπτυξη δύο Εμπορευματικών Κέντρων που πρόκειται να δημιουργηθούν στην Ελλάδα. Το ένα πρόκειται να γίνει στην Αθήνα στην περιοχή του Θριασίου ενώ το δεύτερο στην Θεσσαλονίκη. Μεγαλύτερη σημασία έχει δοθεί στο Εμπορευματικό Κέντρο της Αθήνας του οποίου οι εργασίες έχουν ήδη αρχίσει.",
+    "identifier" : [ "http://estia.hua.gr/dl/object/hua.gr:6515", "hua.gr:6515" ],
+    "subject" : [ "Εμπορευματικά Κέντρα", "Εφοδιαστική", "Logistics", "Freight Centers" ],
+    "title" : "Η σημασία και η ανάπτυξη εμπορευματικών κέντρων στην Ευρώπη και οι προοπτικές στην Ελλάδα",
+    "type" : [ "graduate_thesis", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia"
+    }, {
+      "@language" : "en",
+      "@value" : "Graduate Thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή Εργασία"
+    } ]
+  } ],
+  "@context" : {
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

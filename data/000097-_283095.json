@@ -1,0 +1,119 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Journal-part",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Issue-segment",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Journal part"
+    }, {
+      "@language" : "el",
+      "@value" : "Τμήμα περιοδικού"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/arthro",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Scientific article"
+    }, {
+      "@language" : "el",
+      "@value" : "Επιστημονικό άρθρο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_283095",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Πυργίδης, Χρίστος",
+    "date" : [ "2008", "2016-05-23T11:45:01Z" ],
+    "description" : [ "H ανάπτυξη του σιδηροδρόμου στη χώρα προτείνεται να κινηθεί σε τρεις άξονες:", "• Η ανάπτυξη του προαστιακού-περιφερειακού σιδηρόδρομου αποτελεί μια άμεση αναγκαιότητα για το σύστημα αστικών συγκοινωνιών των Αθηνών και της Θεσσαλονίκης. Η λειτουργία του προαστιακού δικτύου πρέπει να ενταχθεί στα πλαίσια του συνολικού συγκοινωνιακού σχεδιασμού των μέσων σταθερής τροχιάς και να αποτελέσει σημαντικό στοιχείο στον καθορισμό μιας ορθολογικής,  συντονισμένης και ενιαίας πολιτικής, που να προάγει τις συνδυασμένες δημόσιες μεταφορές.", "Στα πλαίσια της εργασίας αυτής αναλύεται η σημερινή κατάσταση (2008) του Ελληνικού Σιδηροδρομικού Δικτύου (υποδομή, τροχαίο υλικό, εκμετάλλευση),   παρουσιάζονται οι προοπτικές στο άμεσο και μεσοπρόθεσμο μέλλον (την επόμενη δεκαετία) και δίδονται οι βασικές αρχές που θα μπορούσαν να αποτελέσουν τον κατευθυντήριο άξονα για την ανάπτυξη του σιδηροδρόμου στη χώρα. Η όλη προσέγγιση βασίζεται στο αναπτυξιακό πρόγραμμα του ΟΣΕ και στις προσωπικές εκτιμήσεις του εισηγητή. Οι σιδηρόδρομοι στην Ελλάδα αποτελούν συγκοινωνιακό μέσο που χρειάζεται να διατηρηθεί και να αναβαθμισθεί όχι μόνο για λόγους καθαρά συγκοινωνιακής πολιτικής (σαν ανταγωνιστικό/συμπληρωματικό μέσο προς τις οδικές μεταφορές), αλλά και για γενικότερους λόγους περιβαλλοντικής,  και ενεργειακής πολιτικής. Βασική προϋπόθεση για την ανάπτυξη των σιδηροδρομικών μεταφορών αποτελεί η ύπαρξη κατάλληλης υποδομής. Οι ελληνικοί σιδηρόδρομοι με δεδομένο ότι θα ολοκληρωθούν τα έργα υποδομής που εκτελούνται ή προγραμματίζονται αναμένεται να έχουν την ελάχιστη υποδομή που χρειάζεται για να διαδραματίσουν ανταγωνιστικό ρόλο στην Ελλάδα και στην ευρύτερη περιοχή.", "• Θα πρέπει να επιδιωχθεί η συνεργασία του σιδηροδρόμου με τα άλλα μέσα και κυρίως τα οδικά και τα θαλάσσια, με κύριο μοχλό την ανάπτυξη των συνδυασμένων μεταφορών εσωτερικού και εξωτερικού.", "• Ο ΟΣΕ θα πρέπει να εκσυγχρονισθεί και οργανωθεί με κύριο στόχο την παροχή υπηρεσιών προς το επιβατικό κοινό πολύ υψηλότερης στάθμης απ’ ότι οι σημερινές, στα πρότυπα των υπόλοιπων Ευρωπαϊκών σιδηροδρόμων. Αυτό σημαίνει μεταξύ άλλων υιοθέτηση σύγχρονων μεθόδων management, επικοινωνίας με το κοινό, μεγαλύτερη χρήση πληροφορικής και να επιταχύνει τα προγράμματα συνεργασίας του με τους λοιπούς Ευρωπαϊκούς σιδηροδρόμους και “συγκλίσεως” μαζί τους." ],
+    "format" : "Text",
+    "identifier" : "http://ikee.lib.auth.gr/record/283095",
+    "language" : "gre",
+    "publisher" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης, Πολυτεχνική Σχολή, Τμήμα Πολιτικών Μηχανικών",
+    "source" : [ "Supply Chain & Logistics magazine, no.15 [2008] p.44-49", "urn:ISSN:1792-4200" ],
+    "title" : "Σχεδιάζοντας το σιδηρόδρομο του μέλλοντος",
+    "type" : [ "info:eu-repo/semantics/article", "Article / Άρθρο", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article"
+    }, {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Journal-part"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000097-oai%3Aikee.lib.auth.gr%3A283095%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_283095",
+    "dataProvider" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
+    "isShownAt" : "http://ikee.lib.auth.gr/record/283095",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

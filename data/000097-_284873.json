@@ -1,0 +1,119 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Conference-article",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Conference-item",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Conference article"
+    }, {
+      "@language" : "el",
+      "@value" : "Άρθρο συνεδρίου"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/arthro",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Scientific article"
+    }, {
+      "@language" : "el",
+      "@value" : "Επιστημονικό άρθρο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_284873",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : [ "Πυργίδης, Χρίστος", "Κωστέας, Ε." ],
+    "date" : [ "1998", "2016-10-07T10:06:36Z" ],
+    "description" : "Στην εισήγηση αυτή παρουσιάζονται τα αποτελέσματα της μελέτης: \"Διερεύνηση και οικονομοτεχνική αξιολόγηση των χαρακτηριστικών εκμετάλλευσης και αξιοποίησης του Σιδηροδρομικού Άξονα Αθηνών - Θεσσαλονίκης - Σκοπίων - Βελιγραδίου - Λιουμπλιάνας - Κ. Ευρώπης\" που εκπονήθηκε από το Εργαστήριο Συγκοινωνιακής Τεχνικής του Α.Π.Θ. σε συνεργασία με τον ΟΣΕ. Στην έρευνα αυτή αναλύονται τα χαρακτηριστικά των σιδηροδρομικών μεταφορών Επιβατών και Εμπορευμάτων στον παραδοσιακό άξονα σύνδεσης της Ελλάδας με την Κεντρική και Δυτική Ευρώπη μέσω Γιουγκοσλαβίας. Παράλληλα εξετάζεται η σκοπιμότητα προώθησης του από τον ΟΣΕ σαν κύριου άξονα χερσαίας επικοινωνίας μεταξύ της χώρας μας και της Ευρωπαϊκής Ένωσης. Η όλη θεώρηση λαμβάνει υπόψη τα νέα δεδομένα που διαμορφώνονται σήμερα, μετά τη λήξη του πολέμου στη Βοσνία, και των προοπτικών που διανοίγονται στο άμεσο (2000) και μεσοπρόθεσμο (2005) μέλλον. Η έρευνα επικεντρώνεται στον κύριο κορμό του άξονα (Θεσσαλονίκη- Ειδομένη - Σκόπια - Νις - Βελιγράδι - Ζάγκρεμπ - Λιουμπλιάνα - Σάλτσμπουργκ - Μόναχο) και στη διακλάδωση του από Γιουγκοσλαβία προς Ουγγαρία (Βελιγράδι - Σουμπότιτσα - Βουδαπέστη).",
+    "format" : "Text",
+    "identifier" : "http://ikee.lib.auth.gr/record/284873",
+    "language" : "gre",
+    "publisher" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης, Πολυτεχνική Σχολή, Τμήμα Πολιτικών Μηχανικών",
+    "source" : "2ο Συνέδριο Συνδυασμένων Μεταφορών και Διαμετακόμισης Νοτιοανατολικής Ευρώπης: Τόμος Πρακτικών, [1998] p.75 - 87",
+    "title" : "Η επαναλειτουργία του σιδηροδρομικού άξονα Χ: μια προσπάθεια απλοποίησης των διαδικασιών στα σύνορα και προώθησης συνδυασμένων μεταφορών",
+    "type" : [ "Conference / Συνέδριο", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article"
+    }, "info:eu-repo/semantics/conferenceObject", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Conference-article"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000097-oai%3Aikee.lib.auth.gr%3A284873%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_284873",
+    "dataProvider" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
+    "isShownAt" : "http://ikee.lib.auth.gr/record/284873",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  } ],
+  "@context" : {
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "en",
+      "@value" : "Doctoral dissertations"
+    },
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300312076",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "PhD thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Διδακτορική διατριβή"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000040-10442_1197%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/phdtheses/000040-10442_1197",
+    "dataProvider" : "Εθνικό Κέντρο Τεκμηρίωσης (ΕΚΤ)",
+    "isShownAt" : "http://hdl.handle.net/10442/hedi/1197",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/phdtheses/000040-10442_1197",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "ΚΟΥΦΟΠΑΝΟΣ, ΧΑΡΑΛΑΜΠΟΣ",
+    "date" : "1989",
+    "description" : [ "THE PYROLYSIS OF VARIOUS LIGNOCELLULOSIC MATERIALS WAS STUDIED IN ORDER TO MODELIZE THE KINETICS OF BOTH PRIMARY AND SECONDARY REACTIONS AS ALSO TRANSPORT PHENOMENA. MODELLING WAS BASED ON EXPERIMENTAL DATA OBTAINED BY MEANS OF THERMAL ANALYSIS TECHNIQUES. THE MODEL OF INTERMEDIATE STEP COMPOSITION IS CORRELATED TOTHE PYROLYSIS RATE BY MEANS OF A SIMPLE ADDITIVE MODEL. USING BOTH THE ADDITIVE MODEL AND THE MODEL OF INTERMEDIATE STEP IT IS POSSIBLE TO PREDICT THE PYROLYSIS RATE OF DIFFERENT LIGNOCELLULOSIC MATERIAL UNDER DIFFERENT HEATING CONDITIONS. A MODEL INVOLVING ALSO THE SECONDARY INTERACTIONS BETWEEN CHARCOAL AND VOLATILES WAS SUGGESTED. THE TRANSPORT PHENOMENA AND THE CHEMICAL REACTIONS ARE DESCRIBED BY MEANS OF A GENERAL MODEL INVOLVING THE HEAT TRANSMISSION BALANCE IN APYROLYZING SOLID PARTICLE AND THE EQUATION OF PYROLYSIS RATE. THE HEAT BALANCEINCLUDES A TERM, WHICH REPRESENTS THE HEAT FLOW DUE TO REACTION HEAT. THE HEATOF THE PYROLYSIS REACTIONS CAN BE REPRESENTED BY TWO VALUES: AN ENDOTHERMIC ONE (FOR LOW CONVERSION) AND AN EXOTHERMIC ONE (FOR HIGH CONVERSION).", "ΜΕΛΕΤΗΘΗΚΕ Η ΠΥΡΟΛΥΣΗ ΔΙΑΦΟΡΩΝ ΛΙΓΝΟΚΥΤΤΑΡΙΝΙΚΩΝ ΥΛΙΚΩΝ ΜΕ ΣΚΟΠΟ ΤΗ ΜΟΝΤΕΛΟΠΟΙΗΣΗ ΤΗΣ ΚΙΝΗΤΙΚΗΣ ΤΩΝ ΠΡΩΤΟΓΕΝΩΝ ΚΑΙ ΔΕΥΤΕΡΟΓΕΝΩΝ ΧΗΜΙΚΩΝ ΔΡΑΣΕΩΝ ΚΑΘΩΣ ΚΑΙ ΤΩΝ ΦΑΙΝΟΜΕΝΩΝ ΜΕΤΑΦΟΡΑΣ. Η ΜΟΝΤΕΛΟΠΟΙΗΣΗ ΣΤΗΡΙΧΘΗΚΕ ΣΕ ΠΕΙΡΑΜΑΤΙΚΑ ΔΕΔΟΜΕΝΑ ΠΟΥ ΕΛΗΦΘΗΣΑΝ ΑΠΟ ΠΕΙΡΑΜΑΤΑ ΘΕΡΜΙΚΗΣ ΑΝΑΛΥΣΗΣ. ΤΟ ΜΟΝΤΕΛΟ ΕΝΔΙΑΜΕΣΟΥ ΣΤΑΔΙΟΥ ΠΕΡΙΓΡΑΦΕΙ ΤΟ ΡΥΘΜΟ ΠΥΡΟΛΥΣΗΣ ΤΩΝ ΚΥΡΙΩΝ ΣΥΣΤΑΤΙΚΩΝ ΤΗΣ ΒΙΟΜΑΖΑΣ. Η ΣΥΣΤΑΣΗ ΤΗΣ ΒΙΟΜΑΖΑΣ ΣΥΝΔΕΕΤΑΙ ΜΕ ΤΟ ΡΥΘΜΟ ΠΥΡΟΛΥΣΗΣ ΜΕΣΩ ΕΝΟΣ ΑΠΛΟΥ ΑΘΡΟΙΣΤΙΚΟΥ ΜΟΝΤΕΛΟΥ. Η ΣΥΝΔΥΑΣΜΕΝΗ ΧΡΗΣΗ ΑΘΡΟΙΣΤΙΚΟΥ ΜΟΝΤΕΛΟΥ ΚΑΙ ΜΟΝΤΕΛΟΥ ΕΝΔΙΑΜΕΣΟΥ ΣΤΑΔΙΟΥ ΠΡΟΒΛΕΠΕΙ ΙΚΑΝΟΠΟΙΗΤΙΚΑ ΤΟ ΡΥΘΜΟ ΠΥΡΟΛΥΣΗΣ ΔΙΑΦΟΡΩΝ ΛΙΓΝΟΚΥΤΤΑΡΙΝΙΚΩΝ ΥΛΙΚΩΝ ΚΑΙ ΣΕ ΔΙΑΦΟΡΕΤΙΚΕΣ ΣΥΝΘΗΚΕΣ ΘΕΡΜΑΝΣΗΣ. ΠΑΡΑΛΛΗΛΑ ΠΡΟΤΑΘΗΚΕ ΚΑΙ ΕΝΑ ΜΟΝΤΕΛΟ ΓΙΑ ΤΗΝ ΠΥΡΟΛΥΣΗ ΤΟΥ ΞΥΛΟΥ ΠΟΥ ΣΥΜΠΕΡΙΛΑΜΒΑΝΕΙ ΤΙΣ ΑΝΤΙΔΡΑΣΕΙΣ ΔΕΥΤΕΡΟΓΕΝΩΝ ΑΛΛΗΛΕΠΙΔΡΑΣΕΩΝ ΚΑΡΒΟΥΝΟΥ ΚΑΙ ΠΤΗΤΙΚΩΝ.  Η ΣΥΝΔΥΑΣΜΕΝΗ ΕΠΙΔΡΑΣΗ ΦΑΙΝΟΜΕΝΩΝ ΜΕΤΑΦΟΡΑΣ ΚΑΙ ΧΗΜΙΚΩΝ ΔΡΑΣΕΩΝ ΠΕΡΙΓΡΑΦΕΤΑΙ ΑΠΟ ΕΝΑ ΓΕΝΙΚΕΥΜΕΝΟ ΜΟΝΤΕΛΟ ΠΟΥ ΠΕΡΙΛΑΜΒΑΝΕΙ ΤΟ ΙΣΟΖΥΓΙΟ ΘΕΡΜΟΤΗΤΑΣ ΣΕ ΕΝΑ ΠΥΡΟΛΥΟΜΕΝΟ ΣΤΕΡΕΟ ΣΩΜΑΤΙΔΙΟ ΚΑΙ ΤΗΝ ΕΞΙΣΩΣΗ ΤΟΥ ΡΥΘΜΟΥ ΠΥΡΟΛΥΣΗΣ. ΣΤΟ ΙΣΟΖΥΓΙΟ ΥΠΑΡΧΕΙ ΚΑΙ ΕΝΑΣ ΟΡΟΣ ΠΟΥ ΑΝΑΦΕΡΕΤΑΙ ΣΤΗ ΡΟΗ ΘΕΡΜΟΤΗΤΑΣ ΛΟΓΩ ΧΗΜΙΚΩΝ ΑΝΤΙΔΡΑΣΕΩΝ. Ο ΘΕΡΜΟΤΟΝΙΣΜΟΣ ΤΟΥΣ ΜΠΟΡΕΙ ΝΑ ΑΝΤΙΠΡΟΣΩΠΕΥΘΕΙ ΑΠΟ ΔΥΟ ΤΙΜΕΣ:ΜΙΑ ΕΝΔΟΘΕΡΜΗ (ΧΑΜΗΛΕΣ ΜΕΤΑΤΡΟΠΕΣ) ΚΑΙ ΜΙΑ ΕΞΩΘΕΡΜΗ ΤΙΜΗ (ΥΨΗΛΕΣ ΜΕΤΑΤΡΟΠΕΣ)." ],
+    "identifier" : [ "http://hdl.handle.net/10442/hedi/1197", "10.12681/eadd/1197" ],
+    "language" : "gre",
+    "publisher" : [ "National Technical University of Athens (NTUA)", "Εθνικό Μετσόβιο Πολυτεχνείο (ΕΜΠ)" ],
+    "subject" : [ "ΚΙΝΗΤΙΚΑ ΜΟΝΤΕΛΑ", "ΠΥΡΟΛΥΣΗ ΒΙΟΜΑΖΑΣ", "ΘΕΡΜΟΧΗΜΙΚΗ ΜΕΤΑΤΡΟΠΗ ΒΙΟΜΑΖΑΣ", "Biomass", "ΑΝΑΝΕΩΣΙΜΕΣ ΜΟΡΦΕΣ ΕΝΕΡΓΕΙΑΣ", "HEAT TRANSFER MODELS", "KINETIC MODELS", "THERMOCHEMICAL CONVERSION OF BIOMASS", "ΜΟΝΤΕΛΑ ΜΕΤΑΦΟΡΑΣ ΘΕΡΜΟΤΗΤΑΣ", "RENEWABLE FORMS OF ENERGY", "ΛΙΓΝΟΚΥΤΤΑΡΙΝΙΚΑ ΥΛΙΚΑ", "Lignocellulosic materials", "BIOMASS PYROLYSIS", "Βιομάζα" ],
+    "title" : [ "ΜΟΝΤΕΛΟΠΟΙΗΣΗ ΤΗΣ ΠΥΡΟΛΥΣΗΣ ΛΙΓΝΟΚΥΤΤΑΡΙΚΩΝ ΥΛΙΚΩΝ", "MODELLING OF THE PYROLYSIS OF LIGNOCELLULOSIC MATERIALS" ],
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis"
+  } ],
+  "@context" : {
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

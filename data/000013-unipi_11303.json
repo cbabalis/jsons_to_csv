@@ -1,0 +1,116 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_11303",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : [ "Καραλέκας, Δημήτριος", "Σχολή Ναυτιλίας και Βιομηχανίας. Tμήμα Βιομηχανικής Διοίκησης και Tεχνολογίας", "Βιομηχανική Διοίκηση και Τεχνολογία" ],
+    "creator" : "Ραδαίου, Μυρτώ",
+    "date" : [ "2018-07-05", "2018-07", "2018-07-09T08:15:57Z" ],
+    "description" : "Σκοπός της εργασίας είναι η μελέτη του πρότυπου σεναρίου στοίβαξης και μεταφοράς που έχει σχεδιάσει η εταιρεία προκειμένου να πραγματοποιήσει το εξαγωγικό της πλάνο στην Βραζιλία. Μέσα από παραμετροποιήσεις θα εξεταστεί αν η εταιρεία ακολουθεί τον βέλτιστο τρόπο στοίβαξης καθώς και τις παραμετροποιήσεις με τις οποίες θα μπορούσε να αυξήσει την διακινούμενη ποσότητά της. Στη συνέχεια θα μελετηθεί για το κάθε σενάριο στοίβαξης η περιβαλλοντική επίπτωση που έχει κατά την μεταφορά του, εξετάζοντας διαφορετικούς τρόπους μεταφοράς.\nΑρχικά παρατίθεται το θεωρητικό τμήμα, στα δύο πρώτα κεφάλαια, στο οποίο αναλύονται οι έννοιες των Logistics, της εφοδιαστικής αλυσίδας και της συσκευασίας. Μέσα από το θεωρητικό πλαίσιο παρουσιάζεται η εξέλιξη της αλυσίδας εφοδιασμού και ο ρόλος της στις σύγχρονες επιχειρήσεις. Επιπλέον τονίζεται η σπουδαιότητα της συσκευασίας για τα προϊόντα καθώς και ο ρόλος που διαδραματίζει μέσα στην αλυσίδα εφοδιασμού.\nΣτη συνέχεια παρουσιάζονται στοιχεία που αφορούν στην αγορά της Βραζιλίας σε ότι αφορά το ελαιόλαδο και τα προϊόντα ελιάς. Τα στοιχεία αυτά αποτελούν χρήσιμο εργαλείο προκειμένου να μπορέσει μια εταιρεία να εξάγει τα συγκεκριμένα προϊόντα στη χώρα αυτή. Επιπλέον παρατίθενται στοιχεία που αφορούν στην εισαγωγική δραστηριότητα της Βραζιλίας για το 2017 σε παγκόσμιο\nεπίπεδο, καθώς και η εξαγωγική δραστηριότητα της Ελλάδας προς τη Βραζιλία για την τελευταία τετραετία (2014-2017).\nΣτο επόμενο κεφάλαιο ακολουθεί το πρακτικό μέρος της εργασίας με την χρήση του προγράμματος TOPS Pro. Σε πρώτο στάδιο διεξάγεται μελέτη για τα πραγματικά δεδομένα στοίβαξης και μεταφοράς που έχει θέσει η εταιρεία, ενώ στην συνέχεια ακολουθούν τρία νέα σενάρια στοίβαξης και μεταφοράς προκειμένου να διερευνηθεί ποιο είναι το βέλτιστο για την μεταφορά της μέγιστης δυνατής ποσότητας.\nΣτο τελευταίο κεφάλαιο παρουσιάζονται οι περιβαλλοντικές επιπτώσεις για κάθε ένα από τα σενάρια στοίβαξης και μεταφοράς που μελετήθηκαν στο προηγούμενο κεφάλαιο χρησιμοποιώντας δύο διαφορετικά σενάρια των μέσων μεταφοράς. Και στα δύο σενάρια γίνεται χρήση συνδυασμένης μεταφοράς, οδικής και θαλάσσιας, αλλά αλλάζουν οι διαδρομές που ακολουθούνται. Τέλος εξετάζεται και η περιβαλλοντική επίπτωσή που θα προκύψει σε περίπτωση αλλαγής της πρωτογενούς συσκευασίας.\nΗ εργασία ολοκληρώνεται με την παρουσίαση των συμπερασμάτων της έρευνας που πραγματοποιήθηκε.",
+    "format" : "124",
+    "identifier" : "http://dione.lib.unipi.gr/xmlui/handle/unipi/11303",
+    "language" : "gre",
+    "publisher" : "Πανεπιστήμιο Πειραιώς",
+    "subject" : [ "Εφοδιαστική αλυσίδα", "Συσκευασία", "Ελαιόλαδο" ],
+    "title" : "Η συσκευασία στην εφοδιαστική αλυσίδα –  Μελέτη περίπτωσης: η συσκευασία ελαιόλαδου προς εξαγωγή",
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "dc:type" : "Master Thesis"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000013-unipi_11303%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/Dione/000013-unipi_11303",
+    "dataProvider" : "Πανεπιστήμιο Πειραιώς",
+    "isShownAt" : "http://dione.lib.unipi.gr/xmlui/handle/unipi/11303",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights",
+      "@type" : "@id"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Journal-part",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Issue-segment",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Journal part"
+    }, {
+      "@language" : "el",
+      "@value" : "Τμήμα περιοδικού"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/arthro",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Scientific article"
+    }, {
+      "@language" : "el",
+      "@value" : "Επιστημονικό άρθρο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_282937",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "Pyrgidis, Christos",
+    "date" : [ "2016-05-16T07:40:09Z", "1989" ],
+    "description" : [ "H αρχή των \"μαζικών μεταφορών\" προϋποθέτει τη γρήγορη διακίνηση των εμπορευμάτων σε μεγάλες αποστάσεις χρησιμοποιώντας μεταφορικά μέσα μεγάλης χωρητικότητας και με υψηλό συντελεστή πλήρωσης. H πολιτική αυτή επιτρέπει στους μεταφορείς να επωφεληθούν \"οικονομίες κλίμακας\". Aποτελεί μία πολύ αποτελεσματική λύση για τους αποστολείς μεγάλων εμπορευματικών μονάδων και παρέχει τη δυνατότητα στους μικρότερους αποστολείς, συμμετέχοντας σε μαζικές αποστολές, να μειώσουν το κόστος μεταφοράς των εμπορευμάτων τους. Tο κοινό ενδιαφέρον των αποστολέων και των μεταφορέων είχε σαν αποτέλεσμα να αναπτυχθούν σε όλα τα μεταφορικά μέσα, καινούργιες τεχνικές και συστήματα εκμετάλλευσης που προσαρμόζονται κατάλληλα στη \"μαζικοποίηση των μεταφορών\".", "Aquest article tracta el problema de la circulació dels fluxos del transport de mercaderies i la importància del cost logístic que representa per a les empreses. En particular, s'hi analitza la capacitat de resposta del transport en massa en els seus diferents àmbits.", "H πολιτική αυτή δημιουργεί ωστόσο προβλήματα όσον αφορά στη διανομή των εμπορευμάτων και μειώνει το αναμενόμενο επίπεδο εξυπηρέτησης από τους αποστολείς και τους παραλήπτες. Oι \"πλατφόρμες\", οι σταθμοί πολλών λειτουργιών και ο εκσυγχρονισμός των συνδυασμένων μεταφορών στοχεύουν να λύσουν το πρόβλημα αυτό διατηρώντας από τη μία μεριά την αρχή των μαζικών μεταφορών για τις μεγάλες αποστάσεις και συνεισφέροντας από την άλλη μεριά σε μία γρήγορη διανομή των εμπορευμάτων στους παραλήπτες." ],
+    "format" : "Text",
+    "identifier" : "http://ikee.lib.auth.gr/record/282937",
+    "language" : "spa",
+    "publisher" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης, Πολυτεχνική Σχολή, Τμήμα Πολιτικών Μηχανικών",
+    "source" : [ "urn:ISSN:0213-5639", "Espais: revista del Departament de Política Territorial i Obres Públiques, no.17 [1989] p.26-31" ],
+    "title" : "Avantatges i inconvenients de la massificació de fluxos: transport de mercaderies",
+    "type" : [ "info:eu-repo/semantics/article", "Article / Άρθρο", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Scientific-article"
+    }, {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/Journal-part"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000097-oai%3Aikee.lib.auth.gr%3A282937%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_282937",
+    "dataProvider" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
+    "isShownAt" : "http://ikee.lib.auth.gr/record/282937",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  } ],
+  "@context" : {
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

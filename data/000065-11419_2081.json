@@ -1,0 +1,191 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/Educational-material",
+    "@type" : "skos:Concept",
+    "exactMatch" : "http://dbpedia.org/page/Category:Educational_materials",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Educational material"
+    }, {
+      "@language" : "el",
+      "@value" : "Εκπαιδευτικό υλικό"
+    } ]
+  }, {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/book",
+    "@type" : "skos:Concept",
+    "exactMatch" : [ "http://dbpedia.org/page/Book", "http://vocab.getty.edu/aat/300028051" ],
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Book"
+    }, {
+      "@language" : "el",
+      "@value" : "Βιβλίο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000065-oai%3Arepository.kallipos.gr%3A11419_2081%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_2081",
+    "dataProvider" : "Σύνδεσμος Ελληνικών Ακαδημαϊκων Βιβλιοθηκών",
+    "isShownAt" : "http://hdl.handle.net/11419/2081",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/kallipos/000065-11419_2081",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : [ {
+      "@language" : "en",
+      "@value" : "Giannopoulos, Georgios"
+    }, {
+      "@language" : "el",
+      "@value" : "Κάλλιπος"
+    }, {
+      "@language" : "en",
+      "@value" : "Sdoukopoulos, Alexandros"
+    }, {
+      "@language" : "el",
+      "@value" : "Σδουκόπουλος, Αλέξανδρος"
+    }, {
+      "@language" : "en",
+      "@value" : "Kallipos"
+    }, {
+      "@language" : "el",
+      "@value" : "Γιαννόπουλος, Γεώργιος"
+    } ],
+    "creator" : [ {
+      "@language" : "el",
+      "@value" : "Πολίτης, Ιωάννης"
+    }, {
+      "@language" : "el",
+      "@value" : "Παπαϊωάννου, Παναγιώτης"
+    }, {
+      "@language" : "en",
+      "@value" : "Gavanas, Nikolaos"
+    }, {
+      "@language" : "el",
+      "@value" : "Πιτσιάβα Λατινοπούλου, Μάγδα"
+    }, {
+      "@language" : "en",
+      "@value" : "Papaioannou, Panagiotis"
+    }, {
+      "@language" : "en",
+      "@value" : "Pitsiava Latinopoulou, Magda"
+    }, {
+      "@language" : "en",
+      "@value" : "Politis, Ioannis"
+    }, {
+      "@language" : "el",
+      "@value" : "Γαβανάς, Νικόλαος"
+    } ],
+    "description" : {
+      "@language" : "el",
+      "@value" : "Το βιβλίο αποτελεί μια προσπάθεια των συγγραφέων να παρουσιάσουν σε ένα ενιαίο πλαίσιο τις βασικές συνιστώσες του πλέγματος των αστικών μεταφορών δίνοντας τις κατευθύνσεις προς μια βιώσιμη αστική κινητικότητα ως αποτέλεσμα της αρμονικής συνύπαρξης τους σε μια αστική περιοχή. Αποτελείται από δέκα κεφάλαια που η διαδοχή τους καλύπτει αρχικά βασικές έννοιες του συστήματος αστικών μεταφορών και της βιώσιμης κινητικότητας και στη συνέχεια γίνεται μια περιγραφή όλων των δικτύων για να καταλήξει σε μια ολοκληρωμένη θεώρησή τους.  Συγκεκριμένα στο εισαγωγικό κεφάλαιο δίνεται ο ορισμός του συστήματος αστικών μεταφορών, αναλύονται τα συστατικά του, διαπιστώνεται το κυκλοφοριακό πρόβλημα και επισημαίνεται η αναγκαιότητα διαχείρισης της κινητικότητας. Στη συνέχεια στο δεύτερο κεφάλαιο αναλύονται τα βασικά χαρακτηριστικά των μετακινήσεων, δίνεται ο ορισμός της βιώσιμης αστικής κινητικότητας καθώς και οι πολιτικές για την επίτευξή της. Στο τρίτο κεφάλαιο ακολουθεί μια αναλυτική περιγραφή των διαθέσιμων μέτρων διαχείρισης της κινητικότητας με παραδείγματα καλών πρακτικών, ενώ το τέταρτο κεφάλαιο αναφέρεται στον καθορισμό και την αναλυτική περιγραφή των ποσοτικών και ποιοτικών παραμέτρων που χαρακτηρίζουν τα διάφορα μέσα μεταφοράς. Στα επόμενα τέσσερα κεφάλαια 5ο, 6ο, 7ο και 8ο περιγράφονται τα διάφορα αστικά δίκτυα –οδικά, ΔΣ, μετακινήσεις πεζή και δίκτυα ποδηλατόδρομων αντίστοιχα) με βασικό στοιχείο τον υπολογισμό της χωρητικότητας και της στάθμης εξυπηρέτησης τους, ενώ στο 9ο κεφάλαιο γίνεται μια ολοκληρωμένη θεώρηση όλων των δικτύων, του τρόπου σύνδεσης και συνέργιας καθώς και των μεθοδολογιών υπολογισμού ενός συνδυασμένου επίπεδου εξυπηρέτησης τους.  Στο 10ο και τελευταίο κεφάλαιο περιγράφονται τα νέα εργαλεία που χρησιμοποιούνται σήμερα στην ανάλυση των κυκλοφοριακών δεδομένων καθώς και τα έξυπνα συστήματα μεταφορών.  Το βιβλίο ολοκληρώνεται με Παράρτημα Ασκήσεων-Παραδειγμάτων για την καλύτερη κατανόηση όλων των παραπάνω ζητημάτων."
+    },
+    "identifier" : "http://hdl.handle.net/11419/2081",
+    "language" : "gre",
+    "publisher" : [ {
+      "@language" : "en",
+      "@value" : "Hellenic Academic Libraries Link"
+    }, {
+      "@language" : "el",
+      "@value" : "Σύνδεσμος Ελληνικών Ακαδημαϊκών Βιβλιοθηκών"
+    } ],
+    "subject" : [ {
+      "@language" : "en",
+      "@value" : "New Technologies In Transport"
+    }, {
+      "@language" : "el",
+      "@value" : "ΣΥΓΚΟΙΝΩΝΙΑΚΗ ΤΕΧΝΙΚΗ"
+    }, {
+      "@language" : "en",
+      "@value" : "Transport Networks"
+    }, {
+      "@language" : "el",
+      "@value" : "ΔΙΚΤΥΑ ΜΕΤΑΦΟΡΩΝ"
+    }, {
+      "@language" : "en",
+      "@value" : "Transportation Engineering"
+    }, {
+      "@language" : "el",
+      "@value" : "ΔΙΑΧΕΙΡΙΣΗ ΚΙΝΗΤΙΚΟΤΗΤΑΣ"
+    }, {
+      "@language" : "en",
+      "@value" : "Mobility Management"
+    }, {
+      "@language" : "el",
+      "@value" : "ΝΕΕΣ ΤΕΧΝΟΛΟΓΙΕΣ ΣΤΙΣ ΜΕΤΑΦΟΡΕΣ"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Αστικά δίκτυα μεταφορών και διαχείριση κινητικότητας"
+    },
+    "type" : [ "http://semantics.gr/authorities/openarchives-item-types/Educational-material", "http://semantics.gr/authorities/openarchives-item-types/book" ],
+    "dc:type" : [ "learningMaterial", "book" ],
+    "created" : "2015"
+  } ],
+  "@context" : {
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "created" : {
+      "@id" : "http://purl.org/dc/terms/created"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

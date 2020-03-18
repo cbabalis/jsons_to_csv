@@ -3,6 +3,7 @@ it writes it to a csv file.
 """
 
 import json
+import csv
 import os
 from flatten_json import *
 
@@ -54,6 +55,26 @@ def merge_dictionaries(big_dic, dic):
             big_dic[key].append(0)
 
 
+def populate_data_list(big_dic, data_list, json_file_list):
+    """ method to populate a list of flat dictionaries ready to be
+    written as csv files.
+    """
+    for a_file in json_file_list:
+        a_dic = create_dict_keys_from_json(a_file)
+        a_dic = modify_new_dictionary(big_dic, a_dic)
+        data_list.append(a_dic)
+
+
+def modify_new_dictionary(big_dic, dic):
+    new_dict = {}
+    for key in big_dic.keys():
+        if key not in dic:
+            new_dict[key] = 0
+        else:
+            new_dict[key] = dic[key]
+    return new_dict
+
+
 def main():
     # read all files
     json_file_list = get_json_file_list()
@@ -62,11 +83,20 @@ def main():
     # by using it in order to populate the new dictionary.
     json_file = json_file_list.pop(0)
     big_dic = create_dict_keys_from_json(json_file)
-    replace_value_with_list_inside_value(big_dic)
-    # add data from each file
-    populate_big_dictionary(big_dic, json_file_list)
-    print(big_dic)
-    # write the big dictionary to a csv
+
+    # create list of dictionaries ready for csv conversion
+    data_list = []
+    populate_data_list(big_dic, data_list, json_file_list)
+
+    # write list to csv file
+    csv_columns = list(big_dic.keys())
+    csv_file = "data.csv"
+
+    with open(csv_file, "w") as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames=csv_columns)
+        writer.writeheader()
+        for data in data_list:
+            writer.writerow(data)
 
 
 if __name__ == "__main__":

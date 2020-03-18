@@ -1,0 +1,113 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis",
+    "@type" : "skos:Concept",
+    "altLabel" : {
+      "@language" : "en",
+      "@value" : "Doctoral dissertations"
+    },
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300312076",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "PhD thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Διδακτορική διατριβή"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000040-10442_3755%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/phdtheses/000040-10442_3755",
+    "dataProvider" : "Εθνικό Κέντρο Τεκμηρίωσης (ΕΚΤ)",
+    "isShownAt" : "http://hdl.handle.net/10442/hedi/3755",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/phdtheses/000040-10442_3755",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : "ΚΟΣΚΟΛΟΣ, ΝΙΚΟΛΑΟΣ",
+    "date" : "1995",
+    "description" : [ "THE OBJECTIVE OF THIS DOCTORAL THESIS IS TO DESCRIBE AN IMPROVED INTEGRATED COMPUTATIONAL METHODOLOGY THAT HAS BEEN DEVELOPED FOR THE RELIABILITY ASSESSMENT  OF ELECTRICAL POWER SUPPLY SYSTEMS TAKING INTO ACCOUNT ALL THEIR PARTICULAR   DESIGN AND OPERATING FEATURES. THE FOLLOWING TECHNIQUES HAVE BEEN INCORPORATED: - AN IMPROVED METHODOLOGY WHICH ACCURATELY SIMULATES THE OPERATIONAL CHARACTERISTIC  OF INDUSTRIAL POWER SUPPLY SYSTEMS AND EVALUATES THE RELIABILITY INDICESOF   SYSTEM LOAD POINTS. - A TECHNIQUE FOR EVALUATING THE RELIABILITY OF HVDC TRANSMISSION SYSTEMS WHICH IS BASED ON THE FAILURE MODES AND EFFECTS ANALYSISAND USES THE EVENT TREE METHOD AND THE MINIMAL CUT SET APPROACH TO REPRESENTTHE SYSTEM'S OPERATIONAL BEHAVIOUR AND DEDUCE THE APPROPRIATE SYSTEMS'S FAILURE MODES. A SET OF FIVE RELIABILITY INDICES IS EVALUATED FOR EACH OUTPUT NODE BEING  ANALYZED TOGETHER WITH THE PROBABILITY AND FREQUENCY OF ENCOUNTERING PARTICULAR  REGIONS OF SYSTEM PERFORMANCE LEVELS. - TWO ALTERNATIVE TECHNIQUES FOR ASSESSING  THE RELIABILITY PERFORMANCE OF COMPOSITE POWER SYSTEMS. THE ANALYTICAL CONTINGENCY  ENUMERATION TECHNIQUE AND THE MONTE-CARLO SEQUENTIAL SIMULATIONARE IMPLEMENTED.  - A TECHNIQUE FOR ASSESSING THE OVERALL RELIABILITY OF AUTONOMOUS POWER SYSTEMS  THAT MAY OR MAY NOT CONTAIN HVDC INTERCONNECTION LINKS. THIS IS A HYBRID METHOD  BASED ON A MONTE-CARLO SIMULATION SEQUENTIAL APPROACH WHICH INCORPORATES AN  ANALYTICAL APPROACH FOR THE RELIABILITY MODELING OF THE HVDC TRANSMISSION LINKS.", "Ο ΣΚΟΠΟΣ ΤΗΣ ΔΙΔΑΚΤΟΡΙΚΗΣ ΔΙΑΤΡΙΒΗΣ ΕΙΝΑΙ Η ΑΝΑΠΤΥΞΗ ΜΙΑΣ ΟΛΟΚΛΗΡΩΜΕΝΗΣ   ΜΕΘΟΔΟΛΟΓΙΑΣ ΥΠΟΛΟΓΙΣΜΟΥ ΤΗΣ ΑΞΙΟΠΙΣΤΙΑΣ ΤΩΝ ΣΥΓΧΡΟΝΩΝ ΣΥΣΤΗΜΑΤΩΝ ΗΛΕΚΤΡΙΚΗΣ  ΕΝΕΡΓΕΙΑΣ ΘΕΩΡΩΝΤΑΣ ΟΛΕΣ ΤΙΣ ΠΑΡΑΜΕΤΡΟΥΣ ΠΟΥ ΕΠΗΡΕΑΖΟΥΝ ΤΗ ΛΕΙΤΟΥΡΓΙΑ ΤΟΥΣ. Η  ΔΙΑΤΡΙΒΗ ΑΦΟΡΑ ΤΗΝ ΑΝΑΠΤΥΞΗ ΤΩΝ ΑΚΟΛΟΥΘΩΝ ΜΕΘΟΔΟΛΟΓΙΩΝ ΓΙΑ ΤΗΝ ΑΝΑΛΥΣΗ ΤΗΣ  ΑΞΙΟΠΙΣΤΙΑΣ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ: - ΜΙΑ ΟΛΟΚΛΗΡΩΜΕΝΗ ΜΕΘΟΔΟΛΟΓΙΑ  ΠΟΥ ΠΡΟΣΟΜΟΙΑΖΕΙ ΜΕ ΡΕΑΛΙΣΤΙΚΟΤΗΤΑ ΤΗ ΛΕΙΤΟΥΡΓΙΚΗ ΣΥΜΠΕΡΙΦΟΡΑ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ  ΠΑΡΟΧΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΣΕ ΒΙΟΜΗΧΑΝΙΚΕΣ ΕΓΚΑΤΑΣΤΑΣΕΙΣ ΚΑΙ ΥΠΟΛΟΓΙΖΕΙ ΜΕ  ΑΚΡΙΒΕΙΑ ΤΟΥΣ ΔΕΙΚΤΕΣ ΑΞΙΟΠΙΣΤΙΑΣ ΤΩΝ ΖΥΓΩΝ ΦΟΡΤΙΟΥ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ. - ΜΙΑ   ΒΕΛΤΙΩΜΕΝΗ ΜΕΘΟΔΟΛΟΓΙΑ ΜΕ ΣΚΟΠΟ ΤΗ ΜΟΝΤΕΛΟΠΟΙΗΣΗ ΚΑΙ ΤΟΝ ΥΠΟΛΟΓΙΣΜΟ ΤΗΣ ΑΞΙΟΠΙΣΤΙΑΣ  ΤΩΝ ΔΙΑΣΥΝΔΕΤΙΚΩΝ ΣΥΣΤΗΜΑΤΩΝ ΜΕΤΑΦΟΡΑΣ ΜΕ Σ.Ρ. ΣΤΗΝ ΟΠΟΙΑ ΕΧΟΥΝ ΕΝΣΩΜΑΤΩΘΕΙ ΤΑ  ΚΑΤΑΛΛΗΛΑ ΜΟΝΤΕΛΑ ΚΑΙ ΟΙ ΑΡΙΘΜΗΤΙΚΕΣ ΤΕΧΝΙΚΕΣ ΟΙ ΟΠΟΙΕΣ ΑΝΑΓΝΩΡΙΖΟΥΝ ΤΗΝ  ΤΟΠΟΛΟΓΙΚΗΔΟΜΗ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ ΠΟΥ ΑΝΑΛΥΟΝΤΑΙ ΚΑΙ ΠΡΟΣΟΜΟΙΑΖΟΥΝ ΡΕΑΛΙΣΤΙΚΑ ΤΙΣ  ΛΕΙΤΟΥΡΓΙΚΕΣ ΠΡΑΚΤΙΚΕΣ ΚΑΙ ΤΑ ΧΑΡΑΚΤΗΡΙΣΤΙΚΑ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ ΜΕ ΑΥΞΗΜΕΝΗ ΣΤΑΘΜΗ  ΡΕΑΛΙΣΤΙΚΟΤΗΤΑΣ ΚΑΙ ΑΠΟΔΟΤΙΚΟΤΗΤΑΣ. - ΔΥΟ ΕΝΑΛΛΑΚΤΙΚΕΣ ΥΠΟΛΟΓΙΣΤΙΚΕΣ ΜΕΘΟΔΟΛΟΓΙΕΣ  ΓΙΑ ΤΗ ΜΟΝΤΕΛΟΠΟΙΗΣΗ ΚΑΙ ΤΟΝ ΥΠΟΛΟΓΙΣΜΟ ΤΗΣ ΑΞΙΟΠΙΣΤΙΑΣ ΤΟΥ ΣΥΝΔΥΑΣΜΕΝΟΥ ΣΥΣΤΗΜΑΤΟΣΠΑΡΑΓΩΓΗΣ ΚΑΙ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ (ΑΝΑΛΥΤΙΚΗ ΤΕΧΝΙΚΗ ΑΝΑΛΥΣΗΣ ΤΩΝ ΕΝΔΕΧΟΜΕΝΩΝ ΒΛΑΒΗΣ ΚΑΙ Η ΑΚΟΛΟΥΘΙΑΚΗ ΜΕΘΟΔΟΛΟΓΙΑ ΠΡΟΣΟΜΟΙΩΣΗΣ MONTE-CARLO).  - ΜΙΑ ΒΕΛΤΙΩΜΕΝΗ ΥΒΡΙΔΙΚΗ ΜΕΘΟΔΟΛΟΓΙΑ ΓΙΑ ΤΟΝ ΥΠΟΛΟΓΙΣΜΟ ΤΗΣ ΑΞΙΟΠΙΣΤΙΑΣ ΤΩΝ  ΑΥΤΟΝΟΜΩΝ ΣΥΣΤΗΜΑΤΩΝ ΠΟΥ ΕΧΟΥΝ ΔΙΑΣΥΝΔΕΘΕΙ ΜΕ ΑΛΛΑ ΣΥΣΤΗΜΑΤΑ ΔΙΑΜΕΣΟΥ ΜΙΑΣ  ΔΙΑΣΥΝΔΕΣΗΣ Σ.Ρ." ],
+    "identifier" : "http://hdl.handle.net/10442/hedi/3755",
+    "language" : "gre",
+    "publisher" : [ "National Technical University of Athens (NTUA)", "Εθνικό Μετσόβιο Πολυτεχνείο (ΕΜΠ)" ],
+    "subject" : [ "Αυτόνομα συστήματα ηλεκτρικής ενέργειας", "POWER SYSTEM RELIABILITY", "Αξιοπιστία", "POWER TRANSMISSION", "POWER SUPPLY FACILITIES", "ΣΥΣΤΗΜΑΤΑ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ ΜΕ ΣΥΝΕΧΕΣ ΡΕΥΜΑ", "HVDC TRANSMISSION", "COMPOSITE POWER SYSTEM", "ΣΥΝΔΥΑΣΜΕΝΟ ΣΥΣΤΗΜΑ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ", "MONTE-CARLO SIMULATION", "ΣΥΣΤΗΜΑ ΜΕΤΑΦΟΡΑΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ", "Reliability", "ΜΕΘΟΔΟΛΟΓΙΑ ΠΡΟΣΟΜΟΙΩΣΗΣ MONTE-CARLO", "ΑΞΙΟΠΙΣΤΙΑ ΣΥΣΤΗΜΑΤΩΝ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ", "ΣΥΣΤΗΜΑΤΑ ΠΑΡΟΧΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ", "AUTONOMOUS POWER SYSTEM" ],
+    "title" : [ "RELIABILITY EVALUATION OF ELECTRICAL POWER SUPPLY SYSTEMS", "ΑΝΑΛΥΣΗ ΑΞΙΟΠΙΣΤΙΑΣ ΛΕΙΤΟΥΡΓΙΑΣ ΤΩΝ ΣΥΣΤΗΜΑΤΩΝ ΠΑΡΟΧΗΣ ΗΛΕΚΤΡΙΚΗΣ ΕΝΕΡΓΕΙΑΣ" ],
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/PhD-thesis"
+  } ],
+  "@context" : {
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "altLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#altLabel"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

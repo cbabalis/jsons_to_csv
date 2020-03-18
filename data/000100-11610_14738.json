@@ -1,0 +1,150 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "exactMatch" : "http://vocab.getty.edu/aat/300077723",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Master thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Μεταπτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000100-oai%3Ahellanicus.lib.aegean.gr%3A11610_14738%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_14738",
+    "dataProvider" : "Πανεπιστήμιο Αιγαίου",
+    "isShownAt" : "http://hdl.handle.net/11610/14738",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_14738",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : {
+      "@language" : "el",
+      "@value" : "Πανεπιστήμιο Αιγαίου. Σχολή Επιστημών της Διοίκησης. Τμήμα Μηχανικών Οικονομίας και Διοίκησης. Οικονομική και Διοίκηση για Μηχανικούς."
+    },
+    "creator" : {
+      "@language" : "el",
+      "@value" : "Κελεσίδου, Μαρία"
+    },
+    "description" : [ {
+      "@language" : "el",
+      "@value" : "Επιτελική Σύνοψη\tΣτην σύγχρονη εποχή δύο θέματα απασχολούν την Ευρωπαϊκή Ένωση σε σχέση με τον τομέα των μεταφορών η μείωση των περιβαλλοντικών επιπτώσεων και η μείωση της ενέργειας που καταναλώνεται. Την τελευταία δεκαετία η Ευρωπαϊκή Ένωση έχει δραστηριοποιηθεί έντονα για τον περιορισμό αρνητικών επιπτώσεων των μεταφορών στο περιβάλλον. \tΓια την αντιμετώπιση της πραγματικότητας αυτή η Ευρωπαϊκή Ένωση έχει υιοθετήσει μία σύνθετη πολιτική για την προώθηση των πράσινων μεταφορών οι οποίες θα καλύπτουν αποτελεσματικά τις ανάγκες της για την μεταφορά προϊόντων και αγαθών ενώ παράλληλα περιορίζουν την υποβάθμιση του περιβάλλοντος. Για την επίτευξη του σκοπού αυτού η Ε.Ε. προσπαθεί να προωθήσει τις συνδυασμένες μεταφορές και τα πλεονεκτήματα που προσφέρουν καθώς περιορίζουν την χρήση των οδικών μεταφορών και στρέφοντα προς φιλικότερα μεταφορικά μέσα προς το περιβάλλον όπως οι σιδηρόδρομοι και οι πλωτές μεταφορές. \tΗ νομοθεσία της Ε.Ε. ξεκίνησε να ασχολείται με τον τομέα των μεταφορών από πολύ νωρίς, ήδη από το 1957 με την Συνθήκη της Ρώμης αναφέρεται η ανάγκη για συντονισμό των ευρωπαϊκών μεταφορών. Οι περιβαλλοντικές εξελίξεις τα επόμενα χρόνια οδήγησαν στην εξέλιξη της Ευρωπαϊκής νομοθεσίας η οποία σήμερα είναι πολύπλευρη και αποτελείται από επίσημες στρατηγικές, εξειδικευμένες οδηγίες, κανονισμούς, σχέδια δράσεως και ειδικές Βίβλους οι οποίες θέτουν σαφείς και ποσοτικούς στόχους για τον τομέα των μεταφορών. Όσο περνά ο καιρός η Ευρωπαϊκή νομοθεσία γίνεται περισσότερο εξειδικευμένη και αυστηρή σε θέματα περιβάλλοντος με αποκορύφωμα την Στρατηγική 2050. \tΠέρα από την νομοθεσία η Ε.Ε. δημιούργησε και συγκεκριμένες πολιτικές για την προώθηση των πράσινων μεταφορών. Οι πολιτικές αυτές είχαν ως στόχο την ανάπτυξη καινοτόμων δράσεων όπως η υιοθέτηση ευφυών συστημάτων.\tΠαράλληλα η Ε.Ε. πέρα από την ενίσχυση της νομοθεσίας και  πολιτικών  δημιούργησε μία σειρά από ερευνητικά προγράμματα όπως τα FP6 και FP7 τα οποία παρείχαν χρηματοδότηση σε καινοτόμα ερευνητικά έργα σε τομείς όπως τα βιοκαύσιμα και οι ανανεώσιμες πηγές ενέργειας, η ενίσχυση των συνδυασμένων μεταφορών, η μείωση των αέριων εκπομπών, η ανάπτυξη των εφοδιαστικών αλυσίδων, τα ευφυή συστήματα και οι τεχνολογικές καινοτομίες  όσον αφορά τα μέσα μεταφοράς."
+    }, {
+      "@language" : "el",
+      "@value" : "Staff SynopsisIn the modern season two subjects occupy the European Union in combination the sector of transports the reduction of environmental repercussions and the reduction of energy that is consumed. The last decade the European Union has been activated intensely for the restriction of negative repercussions of transports in the environment.For the confrontation of reality this European Union has adopted a complex policy for the promotion of green transports that will effectively cover her needs for the transport of products and goods while at the same time they limit the devalorisation of environment. For the achievement of this aim the EU tries it promotes the combined transports and the advantages that they offer they limit the use of road transports and turning to friendlier figurative means to the environment as the railways and the navigable transports.The legislation of EU began it deals with the sector of transports from very early, already from 1957 with the Treaty of Rome is reported the need for co-ordination of European transports. The environmental developments the next years led to the development of European legislation which today is multifaceted and is constituted by official strategies, specialised directives, regulations, plans of action and special Bibles that place explicit and quantitative objectives for the sector of transports. As long as it passes the time the European legislation becomes more specialised and strict on issues environment with climax the Strategic 2050. Beyond the legislation the EU created also concrete policies for the promotion of green transpositions. This policies aimed at as the growth of innovative action as the adoption of brilliant systems.At the same time the EU beyond the aid of legislation and policies created a line from inquiring programs as the FP6 and FP7 which provided financing in innovative inquiring work in sectors and the renewable sources of energy, the aid of combined transports, the reduction of gases of emissions, the growth of chains, the brilliant systems and the technological innovations with regard to the means of transport."
+    } ],
+    "identifier" : "http://hdl.handle.net/11610/14738",
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "Λευκή Βίβλος"
+    }, {
+      "@language" : "el",
+      "@value" : "FP6"
+    }, {
+      "@language" : "el",
+      "@value" : "Πράσινες μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Ερευνητικά έργα"
+    }, {
+      "@language" : "el",
+      "@value" : "Green transport"
+    }, {
+      "@language" : "el",
+      "@value" : "European Union"
+    }, {
+      "@language" : "el",
+      "@value" : "΄Εργα εδαφικής συνεργασίας"
+    }, {
+      "@language" : "el",
+      "@value" : "FP7"
+    }, {
+      "@language" : "el",
+      "@value" : "Ipa Adriatic"
+    }, {
+      "@language" : "el",
+      "@value" : "Συνδιασμένες μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Green logistics"
+    }, {
+      "@language" : "el",
+      "@value" : "Αναπτυξιακά έργα"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Πράσινες μεταφορές στην Ευρωπαϊκή Ένωση: πολιτικές, νομοθεσία και δράσεις"
+    },
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/metaptyxiakh-ergasia",
+    "dc:type" : "masterThesis",
+    "issued" : "2012"
+  } ],
+  "@context" : {
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

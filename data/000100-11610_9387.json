@@ -1,0 +1,120 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "@type" : "skos:Concept",
+    "broadMatch" : "http://vocab.getty.edu/aat/300028029",
+    "broader" : "http://semantics.gr/authorities/openarchives-item-types/Research-Paper-",
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Bachelor thesis"
+    }, {
+      "@language" : "el",
+      "@value" : "Πτυχιακή εργασία"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000100-oai%3Ahellanicus.lib.aegean.gr%3A11610_9387%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9387",
+    "dataProvider" : "Πανεπιστήμιο Αιγαίου",
+    "isShownAt" : "http://hdl.handle.net/11610/9387",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)"
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/hellanicus/000100-11610_9387",
+    "@type" : "edm:ProvidedCHO",
+    "contributor" : {
+      "@language" : "el",
+      "@value" : "Πανεπιστήμιο Αιγαίου. Σχολή Επιστημών της Διοίκησης. Τμήμα Ναυτιλίας και Επιχειρηματικών Υπηρεσιών."
+    },
+    "creator" : {
+      "@language" : "el",
+      "@value" : "Φλέγκα, Βασιλική"
+    },
+    "description" : {
+      "@language" : "el",
+      "@value" : "Στην εργασία αυτή αναλύουμε την μεταφορική κίνηση σε 10 αερολιμένες που βρίσκονται σε νησιωτικές περιοχές. Η μεταφορική κίνηση αναλύεται σε αριθμό πτήσεων, σε επιβατική κίνηση και εμπορευματική. Η έρευνα και τα στατιστικά δεδομένα αφορούν το έτος 2008 και είναι προσαρμοσμένα από στοιχεία της Υπηρεσίας Πολιτικής Αεροπορίας.Σκοπός της έρευνας είναι, εκτός από το να παρουσιάσουμε και να σχολιάσουμε την μεταφορική κίνηση των συγκεκριμένων νησιών για το έτος 2008, να κατανοήσουμε πως διαφοροποιούνται τα μεγέθη κάτω από κάποιες συνθήκες και ανάλογα από συγκεκριμένους παράγοντες.Επιπλέον στην έρευνα μας εξετάζουμε ποιοι άλλοι τρόποι και μέσα μεταφοράς υπάρχουν, σε κάθε ένα από τα νησιά που θα ασχοληθούμε, εκτός από τις αερομεταφορές."
+    },
+    "identifier" : "http://hdl.handle.net/11610/9387",
+    "subject" : [ {
+      "@language" : "el",
+      "@value" : "Συνδυασμένες μεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Αερομεταφορές"
+    }, {
+      "@language" : "el",
+      "@value" : "Στατιστικά αερολιμένων"
+    } ],
+    "title" : {
+      "@language" : "el",
+      "@value" : "Στατιστική μελέτη μεταφορικής κίνησης αερολιμένων: Σάμου, Κεφαλληνίας, Μυκόνου,  Χίου, Σκιάθου, Καρπάθου, Λήμνου, Πάρου και Νάξου"
+    },
+    "type" : "http://semantics.gr/authorities/openarchives-item-types/ptyxiakh-ergasia",
+    "dc:type" : "bachelorThesis",
+    "issued" : "2010"
+  } ],
+  "@context" : {
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type",
+      "@type" : "@id"
+    },
+    "description" : {
+      "@id" : "http://purl.org/dc/elements/1.1/description"
+    },
+    "subject" : {
+      "@id" : "http://purl.org/dc/elements/1.1/subject"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "contributor" : {
+      "@id" : "http://purl.org/dc/elements/1.1/contributor"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "issued" : {
+      "@id" : "http://purl.org/dc/terms/issued"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "broadMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broadMatch",
+      "@type" : "@id"
+    },
+    "broader" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#broader",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}

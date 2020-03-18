@@ -1,0 +1,102 @@
+{
+  "@graph" : [ {
+    "@id" : "http://semantics.gr/authorities/openarchives-item-types/book",
+    "@type" : "skos:Concept",
+    "exactMatch" : [ "http://dbpedia.org/page/Book", "http://vocab.getty.edu/aat/300028051" ],
+    "prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Book"
+    }, {
+      "@language" : "el",
+      "@value" : "Βιβλίο"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_241834",
+    "@type" : "edm:ProvidedCHO",
+    "creator" : [ "Μποζούδης, Μ.", "Καρακωστάνογλου, Βενιαμίν" ],
+    "date" : [ "2008", "2013-09-30T15:40:40Z" ],
+    "format" : "Text",
+    "identifier" : "http://ikee.lib.auth.gr/record/241834",
+    "language" : "gre",
+    "publisher" : [ "Εκδόσεις Ι. Σιδέρης, Αθήνα", "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης, Νομική Σχολή, Τμήμα Νομικής" ],
+    "source" : [ "Περιβάλλον και Θαλάσσιες Μεταφορές : σε αναζήτηση μιας βιώσιμης προσέγγισης, [2008] p.501-516", "info:doi/editor Τσάλτας, Γρηγόρης" ],
+    "title" : "Συνδυασμένες Μεταφορές στη Νοτιο-Ανατολική Ευρώπη και η πολιτική ανάπτυξης των Μεταφορών της Ευρωπαϊκής ΄Ενωσης: Ο Δούναβης ως ποτάμια οδός των Ευρωπαϊκών Δικτύων Μεταφορών και η Προστασία της Μεσογείου",
+    "type" : [ "info:eu-repo/semantics/book", "Book / Βιβλίο", {
+      "@id" : "http://semantics.gr/authorities/openarchives-item-types/book"
+    } ]
+  }, {
+    "@id" : "https://www.openarchives.gr/aggregator-openarchives/edm/aggregation/provider/000097-oai%3Aikee.lib.auth.gr%3A241834%231",
+    "@type" : "ore:Aggregation",
+    "aggregatedCHO" : "https://www.openarchives.gr/aggregator-openarchives/edm/IKEE_AUT/000097-_241834",
+    "dataProvider" : "Αριστοτέλειο Πανεπιστήμιο Θεσσαλονίκης",
+    "isShownAt" : "http://ikee.lib.auth.gr/record/241834",
+    "provider" : "Greek Aggregator OpenArchives.gr | National Documentation Centre (EKT)",
+    "rights" : "other"
+  } ],
+  "@context" : {
+    "format" : {
+      "@id" : "http://purl.org/dc/elements/1.1/format"
+    },
+    "title" : {
+      "@id" : "http://purl.org/dc/elements/1.1/title"
+    },
+    "date" : {
+      "@id" : "http://purl.org/dc/elements/1.1/date"
+    },
+    "creator" : {
+      "@id" : "http://purl.org/dc/elements/1.1/creator"
+    },
+    "publisher" : {
+      "@id" : "http://purl.org/dc/elements/1.1/publisher"
+    },
+    "type" : {
+      "@id" : "http://purl.org/dc/elements/1.1/type"
+    },
+    "source" : {
+      "@id" : "http://purl.org/dc/elements/1.1/source"
+    },
+    "identifier" : {
+      "@id" : "http://purl.org/dc/elements/1.1/identifier"
+    },
+    "language" : {
+      "@id" : "http://purl.org/dc/elements/1.1/language"
+    },
+    "rights" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/rights"
+    },
+    "provider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/provider"
+    },
+    "isShownAt" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/isShownAt",
+      "@type" : "@id"
+    },
+    "dataProvider" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/dataProvider"
+    },
+    "aggregatedCHO" : {
+      "@id" : "http://www.europeana.eu/schemas/edm/aggregatedCHO",
+      "@type" : "@id"
+    },
+    "exactMatch" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+      "@type" : "@id"
+    },
+    "prefLabel" : {
+      "@id" : "http://www.w3.org/2004/02/skos/core#prefLabel"
+    },
+    "ore" : "http://www.openarchives.org/ore/terms/",
+    "owl" : "http://www.w3.org/2002/07/owl#",
+    "skos" : "http://www.w3.org/2004/02/skos/core#",
+    "rdfs" : "http://www.w3.org/2000/01/rdf-schema#",
+    "rdaGr2" : "http://rdvocab.info/ElementsGr2/",
+    "edm" : "http://www.europeana.eu/schemas/edm/",
+    "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "xalan" : "http://xml.apache.org/xalan",
+    "dcterms" : "http://purl.org/dc/terms/",
+    "wgs84_pos" : "http://www.w3.org/2003/01/geo/wgs84_pos#",
+    "foaf" : "http://xmlns.com/foaf/0.1/",
+    "crm" : "http://www.cidoc-crm.org/rdfs/cidoc_crm_v5.0.2_english_label.rdfs#",
+    "dc" : "http://purl.org/dc/elements/1.1/"
+  }
+}
